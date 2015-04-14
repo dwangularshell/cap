@@ -1,0 +1,5360 @@
+@font-face {
+  font-family: 'Gibson_Bold';
+  src: url("../fonts/Gibson_Bold.eot");
+  src: url("../fonts/Gibson_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_Bold.woff") format("woff"), url("../fonts/Gibson_Bold.ttf") format("truetype"), url("../fonts/Gibson_Bold.svg#Gibson_Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_BoldItalic';
+  src: url("../fonts/Gibson_BoldItalic.eot");
+  src: url("../fonts/Gibson_BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_BoldItalic.woff") format("woff"), url("../fonts/Gibson_BoldItalic.ttf") format("truetype"), url("../fonts/Gibson_BoldItalic.svg#Gibson_BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_Italic';
+  src: url("../fonts/Gibson_Italic.eot");
+  src: url("../fonts/Gibson_Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_Italic.woff") format("woff"), url("../fonts/Gibson_Italic.ttf") format("truetype"), url("../fonts/Gibson_Italic.svg#Gibson_Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_Light';
+  src: url("../fonts/Gibson_Light.eot");
+  src: url("../fonts/Gibson_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_Light.woff") format("woff"), url("../fonts/Gibson_Light.ttf") format("truetype"), url("../fonts/Gibson_Light.svg#Gibson_Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_LightIt';
+  src: url("../fonts/Gibson_LightIt.eot");
+  src: url("../fonts/Gibson_LightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_LightIt.woff") format("woff"), url("../fonts/Gibson_LightIt.ttf") format("truetype"), url("../fonts/Gibson_LightIt.svg#Gibson_LightIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_Regular';
+  src: url("../fonts/Gibson_Regular.eot");
+  src: url("../fonts/Gibson_Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_Regular.woff") format("woff"), url("../fonts/Gibson_Regular.ttf") format("truetype"), url("../fonts/Gibson_Regular.svg#Gibson_Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_SemiBold';
+  src: url("../fonts/Gibson_SemiBold.eot");
+  src: url("../fonts/Gibson_SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_SemiBold.woff") format("woff"), url("../fonts/Gibson_SemiBold.ttf") format("truetype"), url("../fonts/Gibson_SemiBold.svg#Gibson_SemiBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gibson_SemiboldIt';
+  src: url("../fonts/Gibson_SemiboldIt.eot");
+  src: url("../fonts/Gibson_SemiboldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson_SemiboldIt.woff") format("woff"), url("../fonts/Gibson_SemiboldIt.ttf") format("truetype"), url("../fonts/Gibson_SemiboldIt.svg#Gibson_SemiboldIt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "d-icons";
+  src: url("../fonts/d-icons.eot");
+  src: url("../fonts/d-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/d-icons.woff") format("woff"), url("../fonts/d-icons.ttf") format("truetype"), url("../fonts/d-icons.svg#d-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../../app/styles/_d-icons.scss */
+
+.icon {
+  font-family: "d-icons";
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 34, ../../app/styles/_d-icons.scss */
+
+.icon-acquisition:before {
+  content: "\f101";
+}
+
+/* line 39, ../../app/styles/_d-icons.scss */
+
+.icon-add:before {
+  content: "\f102";
+}
+
+/* line 44, ../../app/styles/_d-icons.scss */
+
+.icon-approve:before {
+  content: "\f103";
+}
+
+/* line 49, ../../app/styles/_d-icons.scss */
+
+.icon-arrow-left:before {
+  content: "\f104";
+}
+
+/* line 54, ../../app/styles/_d-icons.scss */
+
+.icon-arrow-right:before {
+  content: "\f105";
+}
+
+/* line 59, ../../app/styles/_d-icons.scss */
+
+.icon-calendar:before {
+  content: "\f106";
+}
+
+/* line 64, ../../app/styles/_d-icons.scss */
+
+.icon-categorysales:before {
+  content: "\f107";
+}
+
+/* line 69, ../../app/styles/_d-icons.scss */
+
+.icon-close:before {
+  content: "\f108";
+}
+
+/* line 74, ../../app/styles/_d-icons.scss */
+
+.icon-crm:before {
+  content: "\f109";
+}
+
+/* line 79, ../../app/styles/_d-icons.scss */
+
+.icon-delete:before {
+  content: "\f10a";
+}
+
+/* line 84, ../../app/styles/_d-icons.scss */
+
+.icon-download:before {
+  content: "\f10b";
+}
+
+/* line 89, ../../app/styles/_d-icons.scss */
+
+.icon-edit:before {
+  content: "\f10c";
+}
+
+/* line 94, ../../app/styles/_d-icons.scss */
+
+.icon-file:before {
+  content: "\f10d";
+}
+
+/* line 99, ../../app/styles/_d-icons.scss */
+
+.icon-file-add:before {
+  content: "\f10e";
+}
+
+/* line 104, ../../app/styles/_d-icons.scss */
+
+.icon-file-approve:before {
+  content: "\f10f";
+}
+
+/* line 109, ../../app/styles/_d-icons.scss */
+
+.icon-file-delete:before {
+  content: "\f110";
+}
+
+/* line 114, ../../app/styles/_d-icons.scss */
+
+.icon-file-download:before {
+  content: "\f111";
+}
+
+/* line 119, ../../app/styles/_d-icons.scss */
+
+.icon-file-edit:before {
+  content: "\f112";
+}
+
+/* line 124, ../../app/styles/_d-icons.scss */
+
+.icon-file-multiple:before {
+  content: "\f113";
+}
+
+/* line 129, ../../app/styles/_d-icons.scss */
+
+.icon-file-remove:before {
+  content: "\f114";
+}
+
+/* line 134, ../../app/styles/_d-icons.scss */
+
+.icon-file-unavailable:before {
+  content: "\f115";
+}
+
+/* line 139, ../../app/styles/_d-icons.scss */
+
+.icon-file-upload:before {
+  content: "\f116";
+}
+
+/* line 144, ../../app/styles/_d-icons.scss */
+
+.icon-fileintelligence:before {
+  content: "\f117";
+}
+
+/* line 149, ../../app/styles/_d-icons.scss */
+
+.icon-folder:before {
+  content: "\f118";
+}
+
+/* line 154, ../../app/styles/_d-icons.scss */
+
+.icon-folder-add:before {
+  content: "\f119";
+}
+
+/* line 159, ../../app/styles/_d-icons.scss */
+
+.icon-folder-approve:before {
+  content: "\f11a";
+}
+
+/* line 164, ../../app/styles/_d-icons.scss */
+
+.icon-folder-delete:before {
+  content: "\f11b";
+}
+
+/* line 169, ../../app/styles/_d-icons.scss */
+
+.icon-folder-download:before {
+  content: "\f11c";
+}
+
+/* line 174, ../../app/styles/_d-icons.scss */
+
+.icon-folder-edit:before {
+  content: "\f11d";
+}
+
+/* line 179, ../../app/styles/_d-icons.scss */
+
+.icon-folder-remove:before {
+  content: "\f11e";
+}
+
+/* line 184, ../../app/styles/_d-icons.scss */
+
+.icon-folder-unavailable:before {
+  content: "\f11f";
+}
+
+/* line 189, ../../app/styles/_d-icons.scss */
+
+.icon-folder-upload:before {
+  content: "\f120";
+}
+
+/* line 194, ../../app/styles/_d-icons.scss */
+
+.icon-geo:before {
+  content: "\f121";
+}
+
+/* line 199, ../../app/styles/_d-icons.scss */
+
+.icon-link-out:before {
+  content: "\f122";
+}
+
+/* line 204, ../../app/styles/_d-icons.scss */
+
+.icon-mobile:before {
+  content: "\f123";
+}
+
+/* line 209, ../../app/styles/_d-icons.scss */
+
+.icon-personalization:before {
+  content: "\f124";
+}
+
+/* line 214, ../../app/styles/_d-icons.scss */
+
+.icon-promotions:before {
+  content: "\f125";
+}
+
+/* line 219, ../../app/styles/_d-icons.scss */
+
+.icon-refresh:before {
+  content: "\f126";
+}
+
+/* line 224, ../../app/styles/_d-icons.scss */
+
+.icon-remove:before {
+  content: "\f127";
+}
+
+/* line 229, ../../app/styles/_d-icons.scss */
+
+.icon-search:before {
+  content: "\f128";
+}
+
+/* line 234, ../../app/styles/_d-icons.scss */
+
+.icon-speedometer:before {
+  content: "\f129";
+}
+
+/* line 239, ../../app/styles/_d-icons.scss */
+
+.icon-speedometer2:before {
+  content: "\f12a";
+}
+
+/* line 244, ../../app/styles/_d-icons.scss */
+
+.icon-star:before {
+  content: "\f12b";
+}
+
+/* line 249, ../../app/styles/_d-icons.scss */
+
+.icon-summary:before {
+  content: "\f12c";
+}
+
+/* line 254, ../../app/styles/_d-icons.scss */
+
+.icon-transaction:before {
+  content: "\f12d";
+}
+
+/* line 259, ../../app/styles/_d-icons.scss */
+
+.icon-upload:before {
+  content: "\f12e";
+}
+
+/* line 264, ../../app/styles/_d-icons.scss */
+
+.icon-user:before {
+  content: "\f12f";
+}
+
+/* line 269, ../../app/styles/_d-icons.scss */
+
+.icon-user-book:before {
+  content: "\f130";
+}
+
+/* line 274, ../../app/styles/_d-icons.scss */
+
+.icon-user-card:before {
+  content: "\f131";
+}
+
+/* line 279, ../../app/styles/_d-icons.scss */
+
+.icon-video:before {
+  content: "\f132";
+}
+
+/* line 11, ../../app/styles/fonts.scss */
+
+.gibsonRegular.medium,
+.medium.mainTitle,
+.link,
+.description,
+.smallData,
+.medium.filesView,
+.gibsonSemibold.medium,
+.medium.headline,
+.matchbackFiles .medium.matchbackType,
+.medium.smallDataHeadline,
+.dataEmphasis {
+  font-size: 14px;
+}
+
+/* line 12, ../../app/styles/fonts.scss */
+
+.gibsonRegular.small,
+.small.mainTitle,
+.small.link,
+.small.description,
+.small.smallData,
+.small.filesView,
+.gibsonSemibold.small,
+.small.headline,
+.matchbackFiles .small.matchbackType,
+.smallDataHeadline,
+.small.dataEmphasis {
+  font-size: 12px;
+}
+
+/* line 13, ../../app/styles/fonts.scss */
+
+.gibsonRegular.large,
+.mainTitle,
+.large.link,
+.large.description,
+.large.smallData,
+.large.filesView,
+.filesView .directoryNav,
+.gibsonSemibold.large,
+.large.headline,
+.matchbackFiles .large.matchbackType,
+.large.smallDataHeadline,
+.large.dataEmphasis {
+  font-size: 18px;
+}
+
+/* line 14, ../../app/styles/fonts.scss */
+
+.gibsonRegular.heroic,
+.heroic.mainTitle,
+.heroic.link,
+.heroic.description,
+.heroic.smallData,
+.heroic.filesView,
+.gibsonSemibold.heroic,
+.headline,
+.matchbackFiles .matchbackType,
+.heroic.smallDataHeadline,
+.heroic.dataEmphasis {
+  font-size: 40px;
+}
+
+/* line 16, ../../app/styles/fonts.scss */
+
+.gibsonRegular.dark,
+.mainTitle,
+.link,
+.description,
+.smallData,
+.filesView,
+.gibsonSemibold.dark,
+.headline,
+.matchbackFiles .matchbackType,
+.smallDataHeadline,
+.dataEmphasis {
+  color: #58534e;
+}
+
+/* line 17, ../../app/styles/fonts.scss */
+
+.gibsonRegular.darkest,
+.darkest.mainTitle,
+.darkest.link,
+.darkest.description,
+.darkest.smallData,
+.darkest.filesView,
+.gibsonSemibold.darkest,
+.darkest.headline,
+.matchbackFiles .darkest.matchbackType,
+.darkest.smallDataHeadline,
+.darkest.dataEmphasis {
+  color: #3e3934;
+}
+
+/* line 20, ../../app/styles/fonts.scss */
+
+.gibsonRegular,
+.mainTitle,
+.link,
+.description,
+.smallData,
+.filesView {
+  font-family: 'Gibson_Regular';
+}
+
+/* line 24, ../../app/styles/fonts.scss */
+
+.gibsonSemibold,
+.headline,
+.matchbackFiles .matchbackType,
+.smallDataHeadline,
+.dataEmphasis {
+  font-family: 'Gibson_SemiBold';
+}
+
+/* line 46, ../../app/styles/fonts.scss */
+
+.link {
+  text-decoration: underline;
+}
+
+/* line 52, ../../app/styles/fonts.scss */
+
+.link:hover {
+  color: #58534e;
+  cursor: pointer;
+}
+
+/* line 57, ../../app/styles/fonts.scss */
+
+.link.disabled {
+  text-decoration: none;
+}
+
+/* line 75, ../../app/styles/fonts.scss */
+
+.icon {
+  font-size: 34px;
+}
+
+/* line 79, ../../app/styles/fonts.scss */
+
+.icon:hover {
+  cursor: pointer;
+}
+
+/* line 84, ../../app/styles/fonts.scss */
+
+.iconText {
+  vertical-align: middle;
+}
+
+/* line 88, ../../app/styles/fonts.scss */
+
+.italic {
+  font-style: italic;
+}
+
+/* line 92, ../../app/styles/fonts.scss */
+
+.bold {
+  font-style: bold;
+}
+
+/* line 96, ../../app/styles/fonts.scss */
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 100, ../../app/styles/fonts.scss */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 104, ../../app/styles/fonts.scss */
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 7, ../../app/styles/forms.scss */
+
+.formHeader {
+  width: 100%;
+  height: 46px;
+  background-color: #7d6b94;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 10px;
+}
+
+/* line 15, ../../app/styles/forms.scss */
+
+.formHeader .iconClose {
+  background-image: url("../images/iconButtonCloseX.png");
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  clear: left;
+  margin-top: -24px;
+  margin-right: 10px;
+}
+
+/* line 26, ../../app/styles/forms.scss */
+
+.formHeader .headerLabel {
+  font-family: 'Gibson_SemiBold';
+  font-size: 16px;
+  color: #edeced;
+  margin-bottom: 0px;
+  padding-top: 13px;
+  padding-left: 10px;
+  float: left;
+}
+
+/* line 37, ../../app/styles/forms.scss */
+
+.std2ColumnFormContainer {
+  max-width: 660px;
+  min-width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+/* line 45, ../../app/styles/forms.scss */
+
+.buttonFormStatus {
+  min-width: 60px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 0.90em;
+  color: #ffb500;
+  cursor: pointer;
+  float: left;
+  margin-right: 6px;
+  border: 1px solid #fff;
+  padding-top: 8px;
+  line-height: 14px;
+}
+
+/* line 56, ../../app/styles/forms.scss */
+
+.buttonFormStatus.active {
+  border: 1px solid #ffb500;
+}
+
+/* line 60, ../../app/styles/forms.scss */
+
+.buttonFormStatus.current {
+  border: 0px;
+  color: #51b7a1;
+  cursor: auto !important;
+}
+
+/* line 66, ../../app/styles/forms.scss */
+
+.formColumnContainer {
+  background-color: #fff;
+  width: 100%;
+  padding: 34px;
+  border: 1px solid #c5c5c5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 76, ../../app/styles/forms.scss */
+
+.formColumnContainer .editModeModalScreen {
+  position: absolute;
+  z-index: 98;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+  cursor: pointer;
+}
+
+/* line 87, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn {
+  min-width: 280px;
+  height: 100%;
+  width: 280px;
+  float: left;
+  margin-bottom: 20px;
+  z-index: 97;
+  float: left;
+}
+
+/* line 96, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn.first {
+  margin-right: 30px;
+}
+
+/* line 100, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .heading {
+  font-family: 'Gibson_Semibold';
+  font-size: 14px;
+  color: #7d6b94;
+  clear: both;
+  text-decoration: underline;
+  text-transform: uppercase;
+  height: 26px;
+  float: left;
+}
+
+/* line 111, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection {
+  margin-bottom: 10px;
+}
+
+/* line 114, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .heading {
+  font-family: 'Gibson_Semibold';
+  font-size: 14px;
+  color: #7d6b94;
+  clear: both;
+  text-decoration: underline;
+  text-transform: uppercase;
+  height: 26px;
+  float: left;
+}
+
+/* line 125, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .valueContainer {
+  clear: both;
+  padding: 4px 0px 10px 10px;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  line-height: 14px;
+  color: #58534e;
+}
+
+/* line 133, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .valueContainer .hDivider {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+/* line 140, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .valueContainer .value {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 22px;
+  clear: both;
+}
+
+/* line 145, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .valueContainer .value.big {
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+/* line 152, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .listType {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+/* line 157, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .detailSection .iconAdjust {
+  float: left;
+  clear: right;
+  margin-top: -7px;
+}
+
+/* line 164, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .currentSelected {
+  font-family: 'Gibson_Italic';
+  font-size: 13px;
+  clear: both;
+  float: left;
+  color: #939393;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+/* line 174, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .actionContainer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+/* line 180, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn h2 {
+  font-family: 'Gibson_SemiBold';
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  color: #3e3934;
+  margin-bottom: 0px;
+}
+
+/* line 188, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn p {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #58534e;
+}
+
+/* line 194, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn a {
+  text-decoration: underline;
+  color: #58534e;
+}
+
+/* line 199, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .preInputLabel {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #3e3934;
+}
+
+/* line 205, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .inputLabel {
+  font-family: 'Gibson_Semibold';
+  font-size: 14px;
+  color: #7d6b94;
+  clear: both;
+}
+
+/* line 211, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .inputLabel.heading {
+  float: left;
+  margin-bottom: 10px;
+}
+
+/* line 217, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .inputField {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 280px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #dedede;
+  padding-left: 6px;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #3e3934;
+}
+
+/* line 229, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .textArea {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  min-width: 280px;
+  width: 100%;
+  resize: none;
+  border: 1px solid #dedede;
+  pointer-events: none;
+  padding: 6px;
+}
+
+/* line 240, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .checkboxCopyRegular {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #58534e;
+  float: left;
+  margin-left: 2px;
+}
+
+/* line 248, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .cancelLink {
+  text-decoration: underline;
+  padding-top: 7px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: block;
+}
+
+/* line 263, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .emailDomainTextArea {
+  min-width: 280px;
+  width: 100%;
+  height: 160px;
+  border: 1px solid #dedede;
+  padding: 6px;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #3e3934;
+  resize: none;
+  word-wrap: break-word;
+}
+
+/* line 276, ../../app/styles/forms.scss */
+
+.formColumnContainer .singleColumn .requiredAsterisk {
+  float: left;
+}
+
+/* line 281, ../../app/styles/forms.scss */
+
+.formColumnContainer .editDetailContainer {
+  border: 1px solid #dedede;
+  margin-left: 0px;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 30px;
+  width: 330px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: -350px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  border-bottom-right-radius: 5px;
+}
+
+/* line 297, ../../app/styles/forms.scss */
+
+.formColumnContainer .editDetailContainer.slideInFromRight {
+  transition: 0.25s;
+  right: -10px;
+}
+
+/* line 305, ../../app/styles/forms.scss */
+
+.formColumnContainer .editDetailContainer.slideOutFromRight {
+  transition: 0.25s;
+  right: -350px;
+}
+
+/* line 313, ../../app/styles/forms.scss */
+
+.formColumnContainer .editValuesContainer {
+  margin: 15px;
+}
+
+/* line 316, ../../app/styles/forms.scss */
+
+.formColumnContainer .editValuesContainer .hDivider {
+  clear: both;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+/* line 325, ../../app/styles/forms.scss */
+
+.formColumnContainer .editDetails {
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* line 331, ../../app/styles/forms.scss */
+
+.height500 {
+  min-height: 500px;
+}
+
+/* line 335, ../../app/styles/forms.scss */
+
+.height600 {
+  min-height: 600px;
+}
+
+/* line 339, ../../app/styles/forms.scss */
+
+.editDetailsButtonContainer {
+  float: right;
+  clear: both;
+}
+
+/* line 344, ../../app/styles/forms.scss */
+
+.checkBoxList {
+  width: 100%;
+  min-height: 160px;
+  max-height: 71%;
+  background-color: #fff;
+  clear: both;
+  border: 1px solid #dedede;
+  overflow-y: auto;
+}
+
+/* line 353, ../../app/styles/forms.scss */
+
+.checkBoxList .label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  font-weight: normal;
+  color: #58534e;
+  clear: both;
+  float: left;
+  line-height: 26px;
+  margin-bottom: -12px;
+}
+
+/* line 365, ../../app/styles/forms.scss */
+
+.checkBoxList ul {
+  font-family: 'Gibson_Regular';
+  color: #58534e;
+  padding-left: 0;
+}
+
+/* line 371, ../../app/styles/forms.scss */
+
+.checkBoxList li {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  list-style-type: none;
+  padding: 4px 4px 4px 10px;
+  cursor: pointer;
+  clear: both;
+  float: left;
+  line-height: 26px;
+  margin-bottom: -4px;
+  width: 100%;
+}
+
+/* line 383, ../../app/styles/forms.scss */
+
+.checkBoxList li:hover {
+  background-color: #bce7de;
+}
+
+/* line 387, ../../app/styles/forms.scss */
+
+.checkBoxList .highlighted {
+  background: #bce7de;
+}
+
+/* line 392, ../../app/styles/forms.scss */
+
+.searchInputBox {
+  min-width: 280px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #dedede;
+  float: left;
+  color: #5dc3ae;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  padding-left: 26px;
+  padding-top: 2px;
+  background: url("../images/iconSearch.png") white no-repeat left center;
+  margin-bottom: 4px;
+  margin-right: 12px;
+}
+
+/* line 408, ../../app/styles/forms.scss */
+
+.hidden {
+  display: none;
+}
+
+/* 2 column forms */
+
+@media only screen and (max-width: 660px) {
+  /* line 4, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer .singleColumn {
+    width: 100%;
+  }
+}
+
+/* iPhone Portrait - 320px width */
+
+/* Android Phones - 360px width */
+
+/* iPhone6 Portrait - 375px width */
+
+/* LG Nexus 4 - 384px width */
+
+/* iPad Portrait - 768px x 1024px */
+
+/* Faux grid card mode */
+
+/* Files section */
+
+/* This media query covers all the devices and cases listed above. */
+
+@media only screen and (max-width: 767px), (max-device-width: 767px) {
+  /* line 25, ../../app/styles/_breakpointStyles.scss */
+
+  #leftNavInsights,
+  #insightsRow,
+  #insightsSelected,
+  #extranetAnchor,
+  #leftNavCreativeApprovals,
+  #creativeApprovalsRow,
+  #creativeApprovalsSelected {
+    display: none;
+  }
+
+  /* line 31, ../../app/styles/_breakpointStyles.scss */
+
+  .buttonFormStd,
+  .buttonFormStdEnabled,
+  .buttonFormStdDisabled {
+    float: none;
+    display: inline-block;
+  }
+
+  /* line 38, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer .singleColumn .cancelLink {
+    float: none;
+    display: inline-block;
+  }
+
+  /* line 45, ../../app/styles/_breakpointStyles.scss */
+
+  .formWrapper {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  /* line 50, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer {
+    width: 97%;
+    padding: 14px;
+  }
+
+  /* line 56, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer .singleColumn .detailSection .valueContainer {
+    padding: 0px;
+  }
+
+  /* line 63, ../../app/styles/_breakpointStyles.scss */
+
+  .formHeader {
+    width: 97%;
+  }
+
+  /* line 67, ../../app/styles/_breakpointStyles.scss */
+
+  .formContainerSingleColumn {
+    margin-right: 0px;
+  }
+
+  /* line 73, ../../app/styles/_breakpointStyles.scss */
+
+  .footer .footerInnerWrapper .thePowerOfPersonalSlogan {
+    text-align: right;
+    font-size: 15px;
+    width: 100px;
+    margin-top: -18px;
+    margin-right: 4px;
+  }
+
+  /* line 84, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridInputBox {
+    width: 300px;
+    margin-right: 12px;
+  }
+
+  /* line 89, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridHeader {
+    display: none;
+  }
+
+  /* line 93, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridHeaderSmall {
+    margin-bottom: -4px;
+    display: block;
+  }
+
+  /* line 98, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridRowContainer {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #e4e4e4;
+  }
+
+  /* line 105, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridCell {
+    display: none;
+  }
+
+  /* line 109, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .vDivider {
+    display: none;
+  }
+
+  /* line 114, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper {
+    display: block;
+    margin-top: 4px;
+  }
+
+  /* line 119, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper .rowContainer li {
+    height: 100%;
+  }
+
+  /* line 123, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper .rowContainer li:hover {
+    background-color: transparent;
+  }
+
+  /* line 128, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper .detailSection {
+    display: block;
+  }
+
+  /* line 133, ../../app/styles/_breakpointStyles.scss */
+
+  .checkboxCopyRegular {
+    margin-right: 12px;
+  }
+
+  /* line 137, ../../app/styles/_breakpointStyles.scss */
+
+  .reportToolbar {
+    padding: 7px 53px 0px 10px;
+  }
+
+  /* line 142, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .filesViewHeader {
+    display: none;
+  }
+
+  /* line 146, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .fileListContainer {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+
+  /* line 151, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .fileContextNav {
+    display: none;
+  }
+
+  /* line 155, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .fileContextNavTop {
+    width: 100%;
+    display: block;
+  }
+
+  /* line 161, ../../app/styles/_breakpointStyles.scss */
+
+  #fileDetailsGrid {
+    display: none;
+  }
+
+  /* line 166, ../../app/styles/_breakpointStyles.scss */
+
+  .fileUploadView,
+  .fileUpload {
+    display: none;
+  }
+}
+
+/* Small Tablet Landscape - 800px x 600px */
+
+@media only screen and (max-width: 800px) {
+  /* line 175, ../../app/styles/_breakpointStyles.scss */
+
+  .landingPageBody .dashboardSplashImage {
+    width: 90%;
+  }
+
+  /* line 179, ../../app/styles/_breakpointStyles.scss */
+
+  .landingPageBody .splashCopy {
+    width: 90%;
+  }
+}
+
+/* Top Nav/Profile Menu */
+
+/* Files sub menu */
+
+@media only screen and (max-width: 875px) {
+  /* line 188, ../../app/styles/_breakpointStyles.scss */
+
+  html {
+    overflow: visible;
+  }
+
+  /* line 192, ../../app/styles/_breakpointStyles.scss */
+
+  .iconMobileMenu {
+    display: block;
+  }
+
+  /* line 196, ../../app/styles/_breakpointStyles.scss */
+
+  .headerBar {
+    height: 46px;
+  }
+
+  /* line 199, ../../app/styles/_breakpointStyles.scss */
+
+  .headerBar .logoGroupContainer {
+    width: 37px;
+    margin: 0 auto;
+  }
+
+  /* line 204, ../../app/styles/_breakpointStyles.scss */
+
+  .headerBar .logoGroupContainer .logoGroup .logoCopy {
+    display: none;
+  }
+
+  /* line 211, ../../app/styles/_breakpointStyles.scss */
+
+  .verticalBottomPush {
+    height: 46px;
+  }
+
+  /* line 216, ../../app/styles/_breakpointStyles.scss */
+
+  .landingPageBody .splashCopy {
+    margin-top: 10px;
+  }
+
+  /* line 221, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchDropDown .searchDropDownContainer {
+    width: 310px;
+    float: left;
+    margin-top: -14px;
+    margin-left: -105px;
+    background-color: #3d3d3d;
+    height: auto;
+  }
+
+  /* line 230, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchDropDown .searchDropDown {
+    width: 300px;
+  }
+
+  /* line 233, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchDropDown .searchDropDown .searchDropDownInput {
+    width: 300px;
+  }
+
+  /* line 238, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSelectionBarContainer {
+    top: 0px;
+    position: relative;
+  }
+
+  /* line 243, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavInnerWrapper {
+    top: 92px;
+  }
+
+  /* line 248, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNav .leftNavOpenCloseButton {
+    display: none;
+  }
+
+  /* line 253, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSub {
+    margin-top: 0px;
+  }
+
+  /* line 257, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavClear {
+    padding-left: 10px;
+  }
+
+  /* line 261, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNav {
+    display: none;
+  }
+
+  /* line 266, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSub .leftNavRow {
+    padding: 15px 30px;
+  }
+
+  /* line 271, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSelectionBarContainer {
+    margin-left: -72px;
+  }
+
+  /* line 275, ../../app/styles/_breakpointStyles.scss */
+
+  .mobileIcon {
+    display: block;
+  }
+
+  /* line 279, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchRow {
+    display: block;
+  }
+
+  /* line 283, ../../app/styles/_breakpointStyles.scss */
+
+  #companyDropDown {
+    display: none;
+  }
+
+  /* line 287, ../../app/styles/_breakpointStyles.scss */
+
+  .profileMenu {
+    right: 10px;
+    top: 12px;
+    position: fixed;
+  }
+
+  /* line 293, ../../app/styles/_breakpointStyles.scss */
+
+  #filesSelected {
+    height: 61px;
+    margin-bottom: 161px;
+  }
+
+  /* line 298, ../../app/styles/_breakpointStyles.scss */
+
+  #leftNavFiles {
+    height: 61px;
+  }
+
+  /* line 302, ../../app/styles/_breakpointStyles.scss */
+
+  #filesRow {
+    height: 223px;
+  }
+
+  /* line 306, ../../app/styles/_breakpointStyles.scss */
+
+  #filesRowSubMenu {
+    width: 320px;
+    margin-top: 18px;
+    margin-bottom: -16px;
+    margin-left: -30px;
+    font-size: 18px;
+    font-family: 'Gibson_Light';
+    display: block;
+  }
+}
+
+/* Reports (Insights) section */
+
+@media only screen and (max-width: 1178px) {
+  /* line 319, ../../app/styles/_breakpointStyles.scss */
+
+  .reportDownloadContainer {
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  /* line 325, ../../app/styles/_breakpointStyles.scss */
+
+  .csvDownloadMenu .dropDown {
+    right: -168px;
+  }
+
+  /* line 328, ../../app/styles/_breakpointStyles.scss */
+
+  .csvDownloadMenu .dropDown .dropDownArrow {
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+/* line 6, ../../app/styles/buttons.scss */
+
+.buttonFormStd,
+.buttonFormStdEnabled {
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+  background-color: #ffb500;
+  border: 1px solid #eca801;
+  text-align: center;
+  padding: 5px 10px 0px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 1.00em;
+  color: #fff;
+  min-width: 90px;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 17, ../../app/styles/buttons.scss */
+
+.buttonFormStd:hover,
+.buttonFormStdEnabled:hover,
+.buttonFormStd.enabled:hover {
+  background-color: #ffc533;
+}
+
+/* line 23, ../../app/styles/buttons.scss */
+
+.buttonFormStd:active,
+.buttonFormStdEnabled:active,
+.buttonFormStd.enabled:active {
+  background-color: #e6a400;
+}
+
+/* line 28, ../../app/styles/buttons.scss */
+
+.buttonFormStdDisabled,
+.buttonFormStd[disabled] {
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+  background-color: #ffb500;
+  border: 1px solid #eca801;
+  text-align: center;
+  padding: 5px 10px 0px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 1.00em;
+  color: #fff;
+  min-width: 90px;
+  float: left;
+  display: inline-block;
+  cursor: default;
+  background-color: #ededed;
+  border: 1px solid #d6d6d6;
+  color: #ababab;
+}
+
+/* line 43, ../../app/styles/buttons.scss */
+
+button.buttonFormStd,
+button.buttonFormStdEnabled,
+button.buttonFormStdDisabled,
+button.buttonFormStd[disabled] {
+  padding-top: 2px;
+}
+
+/* line 49, ../../app/styles/buttons.scss */
+
+a.buttonFormStd,
+a.buttonFormStdEnabled,
+a.buttonFormStdDisabled {
+  text-decoration: none;
+}
+
+/* line 53, ../../app/styles/buttons.scss */
+
+.iconButton {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+/* line 58, ../../app/styles/buttons.scss */
+
+.iconButton .icon {
+  font-size: 45px;
+}
+
+/* line 62, ../../app/styles/buttons.scss */
+
+.iconButton:focus {
+  outline: 0;
+}
+
+/* line 67, ../../app/styles/buttons.scss */
+
+.iconButton[disabled] .icon {
+  color: #ababab;
+}
+
+/* line 70, ../../app/styles/buttons.scss */
+
+.iconButton[disabled] .icon:hover {
+  cursor: default;
+}
+
+/* line 5, ../../app/styles/dropDown.scss */
+
+.searchDropDownContainer {
+  float: right;
+  height: 46px;
+  margin-top: -12px;
+  margin-right: 10px;
+  margin-bottom: -8px;
+}
+
+/* line 13, ../../app/styles/dropDown.scss */
+
+.searchDropDownLabel {
+  float: left;
+  margin-top: 12px;
+  margin-right: 4px;
+  font-family: 'Gibson_Regular';
+  font-size: 1.00em;
+}
+
+/* line 21, ../../app/styles/dropDown.scss */
+
+.searchContainerClear {
+  height: 72px;
+  display: none;
+}
+
+/* line 26, ../../app/styles/dropDown.scss */
+
+.dropDownButtonChevron {
+  width: 24px;
+  height: 14px;
+  display: inline-block;
+  background: url("../images/secondaryNav/dropDownOpenCloseButtonWhite.png") 0 -5px;
+}
+
+/* line 33, ../../app/styles/dropDown.scss */
+
+.dropDownButtonChevron.open {
+  background: url("../images/secondaryNav/dropDownOpenCloseButtonWhite.png") 0 -32px;
+}
+
+/* line 38, ../../app/styles/dropDown.scss */
+
+.searchDropDown {
+  width: 300px;
+  float: right;
+  margin-top: 8px;
+}
+
+/* line 43, ../../app/styles/dropDown.scss */
+
+.searchDropDown .searchDropDownOpenCloseButton {
+  width: 24px;
+  height: 28px;
+  float: right;
+  clear: right;
+  cursor: pointer;
+  margin-top: -29px;
+  margin-right: 1px;
+}
+
+/* line 52, ../../app/styles/dropDown.scss */
+
+.searchDropDown .searchDropDownOpenCloseButton.closed {
+  background: url("../images/secondaryNav/dropDownOpenCloseButton.png") 0 0px;
+}
+
+/* line 56, ../../app/styles/dropDown.scss */
+
+.searchDropDown .searchDropDownOpenCloseButton.open {
+  background: url("../images/secondaryNav/dropDownOpenCloseButton.png") 0 -28px;
+}
+
+/* line 61, ../../app/styles/dropDown.scss */
+
+.searchDropDown .searchDropDownInput {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+  float: left;
+  text-transform: uppercase;
+  color: #5dc3ae;
+  font-family: 'Gibson_SemiBold';
+  font-size: 1.00em;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+/* line 64, ../../app/styles/_mixins.scss */
+
+.searchDropDown .searchDropDownInput::-webkit-input-placeholder {
+  color: #5dc3ae;
+}
+
+/* line 68, ../../app/styles/_mixins.scss */
+
+.searchDropDown .searchDropDownInput:-moz-placeholder {
+  color: #5dc3ae;
+}
+
+/* line 72, ../../app/styles/_mixins.scss */
+
+.searchDropDown .searchDropDownInput::-moz-placeholder {
+  color: #5dc3ae;
+}
+
+/* line 76, ../../app/styles/_mixins.scss */
+
+.searchDropDown .searchDropDownInput:-ms-input-placeholder {
+  color: #5dc3ae;
+}
+
+/* line 83, ../../app/styles/dropDown.scss */
+
+.dropDown {
+  width: 300px;
+  height: 340px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+  float: right;
+  clear: both;
+  margin-top: 6px;
+  transition: height 150ms;
+}
+
+/* line 94, ../../app/styles/dropDown.scss */
+
+.dropDown.ng-hide-add,
+.dropDown.ng-hide-remove {
+  display: block !important;
+  height: 0px;
+}
+
+/* line 99, ../../app/styles/dropDown.scss */
+
+.dropDown.ng-hide-remove.ng-hide-remove-active {
+  height: 300px;
+}
+
+/* line 103, ../../app/styles/dropDown.scss */
+
+.dropDown.ng-hide-add {
+  height: 300px;
+}
+
+/* line 107, ../../app/styles/dropDown.scss */
+
+.dropDown.ng-hide-add.ng-hide-add-active {
+  height: 0px;
+}
+
+/* line 112, ../../app/styles/dropDown.scss */
+
+.dropDown.left .dropDownArrow {
+  float: left;
+  margin-left: 20px;
+}
+
+/* line 118, ../../app/styles/dropDown.scss */
+
+.dropDown.narrow {
+  width: 250px;
+}
+
+/* line 120, ../../app/styles/dropDown.scss */
+
+.dropDown.narrow .dropDownInner {
+  width: 248px;
+}
+
+/* line 125, ../../app/styles/dropDown.scss */
+
+.dropDown.variableHeight {
+  height: initial;
+  max-height: 300px;
+  transition: max-height 150ms;
+}
+
+/* line 131, ../../app/styles/dropDown.scss */
+
+.dropDown.variableHeight.ng-hide-add,
+.dropDown.variableHeight.ng-hide-remove {
+  display: block !important;
+  height: initial;
+  max-height: 0px;
+  overflow-y: hidden;
+}
+
+/* line 138, ../../app/styles/dropDown.scss */
+
+.dropDown.variableHeight.ng-hide-remove.ng-hide-remove-active {
+  max-height: 300px;
+}
+
+/* line 142, ../../app/styles/dropDown.scss */
+
+.dropDown.variableHeight.ng-hide-add {
+  max-height: 300px;
+}
+
+/* line 146, ../../app/styles/dropDown.scss */
+
+.dropDown.variableHeight.ng-hide-add.ng-hide-add-active {
+  max-height: 0px;
+}
+
+/* line 151, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownArrow {
+  width: 11px;
+  height: 6px;
+  float: right;
+  background: url("../images/secondaryNav/dropDownSubBoxArrow.png") 0 0px;
+  margin-top: -6px;
+  margin-right: 20px;
+}
+
+/* line 160, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownInner {
+  width: 298px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* line 165, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownInner .header {
+  padding: 12px;
+}
+
+/* line 169, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownInner ul {
+  font-family: 'Gibson_Regular';
+  color: #58534e;
+  padding-left: 0;
+}
+
+/* line 175, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownInner li {
+  list-style-type: none;
+  padding: 6px 4px 4px 12px;
+  cursor: pointer;
+}
+
+/* line 182, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownInner li.focused,
+.dropDown .dropDownInner li:hover {
+  background-color: #bce7de;
+}
+
+/* line 186, ../../app/styles/dropDown.scss */
+
+.dropDown .dropDownInner .highlighted {
+  background: #bce7de;
+}
+
+/* line 4, ../../app/styles/progressBar.scss */
+
+.progressContainer {
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #c5c5c5;
+  background-color: #f4f4f4;
+  display: inline-block;
+  height: 10px;
+  width: 60px;
+}
+
+/* line 12, ../../app/styles/progressBar.scss */
+
+.progressContainer .progressBar {
+  background-color: #5dbb43;
+  height: 100%;
+  border-radius: inherit;
+  width: 0;
+}
+
+/* line 6, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid {
+  width: 98%;
+  height: 100%;
+}
+
+/* line 11, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridHeaderSmall,
+.fauxGrid .fauxGridHeader {
+  width: 100%;
+  height: 46px;
+  background-color: #7d6b94;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 18, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridHeaderSmall .iconClose,
+.fauxGrid .fauxGridHeader .iconClose {
+  background-image: url("../images/iconButtonCloseX.png");
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  margin-top: -18px;
+  margin-right: 10px;
+}
+
+/* line 28, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridHeaderSmall h2,
+.fauxGrid .fauxGridHeader h2 {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+
+/* line 38, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridHeaderSmall h4,
+.fauxGrid .fauxGridHeader h4 {
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  margin-top: 10px;
+}
+
+/* line 48, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridHeaderSmall {
+  display: none;
+}
+
+/* line 52, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridInputBox {
+  width: 330px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+  float: left;
+  color: #5dc3ae;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  padding-left: 26px;
+  padding-top: 2px;
+  background: url("../images/iconSearch.png") white no-repeat left center;
+  margin-bottom: 4px;
+  margin-right: 12px;
+}
+
+/* line 68, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridSub {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+}
+
+/* line 75, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridSubInner {
+  height: 348px;
+  overflow-y: auto;
+}
+
+/* line 79, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridSubInner ul {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #58534e;
+  padding: 0px;
+  margin: 0;
+}
+
+/* line 87, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridSubInner li {
+  list-style-type: none;
+  height: 36px;
+}
+
+/* line 92, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .fauxGridSubInner li:hover {
+  background-color: #e8e4f2;
+}
+
+/* line 97, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid .vDivider {
+  margin-left: 6px;
+  margin-right: 16px;
+  border-left: 1px solid #ccc;
+  height: 30px;
+  float: left;
+}
+
+/* line 106, ../../app/styles/fauxGrid.scss */
+
+.fauxGridCardView {
+  display: none;
+}
+
+/* line 110, ../../app/styles/fauxGrid.scss */
+
+.fauxGridError {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  color: #58534e;
+}
+
+/* line 119, ../../app/styles/fauxGrid.scss */
+
+.fauxGridColumnLabel {
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 125, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer {
+  float: left;
+  width: 100%;
+  height: 36px;
+}
+
+/* line 130, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 0px;
+}
+
+/* line 135, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .heading {
+  font-family: 'Gibson_Semibold';
+  font-size: 14px;
+  color: #7d6b94;
+  clear: both;
+  text-decoration: underline;
+  text-transform: uppercase;
+  height: 26px;
+  float: left;
+}
+
+/* line 146, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer {
+  clear: both;
+  padding: 4px 0px 10px 10px;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  line-height: 14px;
+  color: #58534e;
+}
+
+/* line 154, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .hDivider {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+/* line 161, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value {
+  height: 100%;
+  line-height: 18px;
+  clear: both;
+}
+
+/* line 166, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value.big {
+  font-size: 18px;
+  clear: none;
+  margin-bottom: 4px;
+}
+
+/* line 172, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value.big .link {
+  font-size: inherit;
+}
+
+/* line 177, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value .ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 181, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value.valueNo:after {
+  content: 'No';
+}
+
+/* line 185, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value.valueYes:after {
+  content: 'Yes';
+}
+
+/* line 189, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .valueContainer .value.clickable {
+  color: #7d6b94;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 197, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .listType {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+/* line 202, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection .iconAdjust {
+  float: left;
+  clear: right;
+  margin-top: -9px;
+}
+
+/* line 209, ../../app/styles/fauxGrid.scss */
+
+.fauxGridRowContainer .detailSection:hover {
+  background-color: #e8e4f2;
+}
+
+/* line 214, ../../app/styles/fauxGrid.scss */
+
+.fauxGridCell {
+  float: left;
+  padding: 6px;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 222, ../../app/styles/fauxGrid.scss */
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 226, ../../app/styles/fauxGrid.scss */
+
+.inCellIconAdjust {
+  min-width: 32px;
+  margin-left: -10px;
+  margin-top: -4px;
+}
+
+/* line 232, ../../app/styles/fauxGrid.scss */
+
+.dateTimeCopy {
+  font-size: 0.95em;
+  letter-spacing: -0.05em;
+}
+
+/* line 237, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid2PercentWide {
+  width: 2%;
+}
+
+/* line 241, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid3PercentWide {
+  width: 3%;
+}
+
+/* line 245, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid5PercentWide {
+  width: 5%;
+}
+
+/* line 249, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid6PercentWide {
+  width: 6%;
+}
+
+/* line 253, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid10PercentWide {
+  width: 10%;
+}
+
+/* line 257, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid11PercentWide {
+  width: 11%;
+}
+
+/* line 261, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid12PercentWide {
+  width: 12%;
+}
+
+/* line 265, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid13PercentWide {
+  width: 13%;
+}
+
+/* line 269, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid15PercentWide {
+  width: 15%;
+}
+
+/* line 273, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid17PercentWide {
+  width: 17%;
+}
+
+/* line 277, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid24PercentWide {
+  width: 24%;
+}
+
+/* line 281, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid37PercentWide {
+  width: 37%;
+}
+
+/* line 285, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid43PercentWide {
+  width: 43%;
+}
+
+/* line 289, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid40PercentWide {
+  width: 40%;
+}
+
+/* line 293, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid53PercentWide {
+  width: 53%;
+}
+
+/* line 297, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid65PercentWide {
+  width: 65%;
+}
+
+/* line 301, ../../app/styles/fauxGrid.scss */
+
+.fauxGrid72PercentWide {
+  width: 72%;
+}
+
+/* line 305, ../../app/styles/fauxGrid.scss */
+
+.cellSelectable {
+  cursor: pointer;
+}
+
+/* line 309, ../../app/styles/fauxGrid.scss */
+
+.fauxGridCardViewLabel {
+  clear: both;
+  float: left;
+  display: none;
+  padding-left: 4px;
+  margin-bottom: -6px;
+  color: #7d6b94;
+  font-family: 'Gibson_SemiBold';
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* line 321, ../../app/styles/fauxGrid.scss */
+
+.iconColorGreen {
+  color: #5dbb43;
+}
+
+/* line 325, ../../app/styles/fauxGrid.scss */
+
+.iconColorRed {
+  color: #e85043;
+}
+
+/* line 329, ../../app/styles/fauxGrid.scss */
+
+.iconCheckmark {
+  background-image: url("../images/iconCheckmark.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 36px;
+  float: left;
+  min-width: 5%;
+}
+
+/* line 338, ../../app/styles/fauxGrid.scss */
+
+.iconEdit {
+  background-image: url("../images/iconEdit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 36px;
+  float: left;
+  cursor: pointer;
+}
+
+/* line 348, ../../app/styles/fauxGrid.scss */
+
+.iconEditUsers {
+  background-image: url("../images/iconEditUsers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 36px;
+  float: left;
+  cursor: pointer;
+}
+
+/* line 358, ../../app/styles/fauxGrid.scss */
+
+.fauxGridContentWrapper {
+  width: 100%;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+  float: left;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+/* line 366, ../../app/styles/fauxGrid.scss */
+
+.fauxGridContentWrapper .rowContainer {
+  min-height: 250px;
+}
+
+/* line 369, ../../app/styles/fauxGrid.scss */
+
+.fauxGridContentWrapper .rowContainer ul {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #58534e;
+  padding: 0px;
+  margin: 0;
+}
+
+/* line 377, ../../app/styles/fauxGrid.scss */
+
+.fauxGridContentWrapper .rowContainer li {
+  list-style-type: none;
+  height: 36px;
+}
+
+/* line 382, ../../app/styles/fauxGrid.scss */
+
+.fauxGridContentWrapper .rowContainer li:hover {
+  background-color: #e8e4f2;
+}
+
+/* line 6, ../../app/styles/leftNav.scss */
+
+.leftNavWrapper {
+  z-index: 1004;
+  position: fixed;
+  width: 0px;
+}
+
+/* line 12, ../../app/styles/leftNav.scss */
+
+.leftNavInnerWrapper {
+  z-index: 1001;
+  clear: both;
+  width: 0px;
+  position: fixed;
+  top: 46px;
+}
+
+/* line 20, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer {
+  width: 72px;
+  height: 305px;
+  z-index: 1002;
+  float: left;
+  position: absolute;
+  top: 46px;
+}
+
+/* line 28, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer.fat {
+  width: 280px;
+}
+
+/* line 32, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer.defaultPos {
+  margin-left: 0px;
+}
+
+/* line 36, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer .selectionBar {
+  width: 72px;
+  height: 61px;
+  cursor: pointer;
+}
+
+/* line 41, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer .selectionBar:hover {
+  border-left: 9px solid #51b7a1;
+}
+
+/* line 44, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer .selectionBar.active {
+  border-left: 9px solid #51b7a1;
+}
+
+/* line 47, ../../app/styles/leftNav.scss */
+
+.leftNavSelectionBarContainer .selectionBar.wide {
+  width: 280px;
+}
+
+/* line 53, ../../app/styles/leftNav.scss */
+
+.leftNav {
+  z-index: 1000;
+  float: left;
+  position: absolute;
+}
+
+/* line 59, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavOpenCloseButton,
+.leftNav .leftNavButton {
+  width: 72px;
+  float: left;
+  clear: left;
+  cursor: pointer;
+  color: #e1e1e2;
+}
+
+/* line 67, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavOpenCloseButton {
+  height: 46px;
+  font-weight: bold;
+  padding: 3px 0px 0px 16px;
+}
+
+/* line 72, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavOpenCloseButton:before {
+  font-size: 40px;
+}
+
+/* line 77, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton {
+  height: 61px;
+  border-bottom: 2px solid #7b6992;
+}
+
+/* line 81, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIcon {
+  width: 21px;
+  height: 21px;
+  float: left;
+}
+
+/* line 91, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIconDashboard,
+.leftNav .leftNavButton .leftNavIconInsights,
+.leftNav .leftNavButton .leftNavIconFiles,
+.leftNav .leftNavButton .leftNavIconCreativeApprovals,
+.leftNav .leftNavButton .leftNavIconManageClients {
+  margin: 8px 0px 0px 16px;
+  font-size: 40px;
+}
+
+/* line 96, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIconDashboard {
+  margin-left: 17px;
+}
+
+/* line 100, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIconInsights {
+  margin-left: 15px;
+}
+
+/* line 104, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIconFiles {
+  margin-left: 13px;
+  font-size: 45px;
+}
+
+/* line 109, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIconCreativeApprovals {
+  margin-left: 15px;
+  font-size: 44px;
+}
+
+/* line 114, ../../app/styles/leftNav.scss */
+
+.leftNav .leftNavButton .leftNavIconManageClients {
+  margin-left: 15px;
+}
+
+/* line 119, ../../app/styles/leftNav.scss */
+
+.leftNav .bgDarkColor {
+  background-color: #706085;
+}
+
+/* line 123, ../../app/styles/leftNav.scss */
+
+.leftNav .bgMediumColor {
+  background-color: #76658b;
+}
+
+/* line 128, ../../app/styles/leftNav.scss */
+
+.headerClear {
+  height: 46px;
+  width: 100%;
+}
+
+/* line 133, ../../app/styles/leftNav.scss */
+
+.companySearchRow {
+  margin-top: 46px;
+  width: 320px;
+  min-height: 46px;
+  color: #fff;
+  padding: 15px 105px;
+  background-color: #3d3d3d;
+  float: left;
+  height: auto;
+  z-index: 1003;
+  position: fixed;
+  display: none;
+}
+
+/* line 147, ../../app/styles/leftNav.scss */
+
+.companySearchRow.slideInFromLeft {
+  transition: 0.25s;
+  transition-property: margin-left;
+  margin-left: 0px;
+}
+
+/* line 156, ../../app/styles/leftNav.scss */
+
+.companySearchRow.slideOutFromLeft {
+  transition: 0.25s;
+  transition-property: margin-left;
+  margin-left: -340px;
+}
+
+/* line 165, ../../app/styles/leftNav.scss */
+
+.mobileIcon {
+  float: left;
+  margin-top: -4px;
+  margin-right: 11px;
+  display: none;
+}
+
+/* line 172, ../../app/styles/leftNav.scss */
+
+.leftNavSub {
+  z-index: 999;
+  float: left;
+  position: absolute;
+  margin-left: -340px;
+  margin-top: 46px;
+}
+
+/* line 179, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRow {
+  width: 320px;
+  height: 61px;
+  float: left;
+  clear: left;
+  border-bottom: 2px solid #7b6992;
+  color: #fff;
+  padding: 15px 75px;
+  cursor: pointer;
+}
+
+/* line 189, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRow a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 193, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRow a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 198, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRow .subRow {
+  width: 320px;
+  padding-left: 95px;
+  clear: both;
+  height: 40px;
+  padding-top: 6px;
+  border-top: 2px solid #7b6992;
+  color: #fff;
+}
+
+/* line 207, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRow .subRow.hover {
+  background-color: #7b6992;
+}
+
+/* line 211, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRow .subRow.active {
+  background-color: #7b6992;
+}
+
+/* line 217, ../../app/styles/leftNav.scss */
+
+.leftNavSub .leftNavRowLabel {
+  width: 220px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Gibson_Light';
+}
+
+/* line 224, ../../app/styles/leftNav.scss */
+
+.leftNavSub .bgDarkColor {
+  background-color: #706085;
+}
+
+/* line 228, ../../app/styles/leftNav.scss */
+
+.leftNavSub .bgMediumColor {
+  background-color: #76658b;
+}
+
+/* line 233, ../../app/styles/leftNav.scss */
+
+.leftNavSub.slideInFromLeft {
+  transition: 0.25s;
+  transition-property: margin-left;
+  margin-left: 0px;
+}
+
+/* line 242, ../../app/styles/leftNav.scss */
+
+.leftNavSub.slideOutFromLeft {
+  transition: 0.25s;
+  transition-property: margin-left;
+  margin-left: -340px;
+}
+
+/* line 251, ../../app/styles/leftNav.scss */
+
+#filesRowSubMenu {
+  display: none;
+}
+
+/* line 9, ../../app/styles/main.scss */
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../../app/styles/main.scss */
+
+html {
+  height: 100%;
+  overflow: visible;
+}
+
+/* line 20, ../../app/styles/main.scss */
+
+body {
+  background-color: #f4f4f4;
+  color: #3e3934;
+  min-width: 320px;
+  min-height: 320px;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  line-height: 1.428571429;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 32, ../../app/styles/main.scss */
+
+html,
+body {
+  font-size: 14px;
+}
+
+/* line 37, ../../app/styles/main.scss */
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* line 42, ../../app/styles/main.scss */
+
+p {
+  margin: 0 0 10px;
+}
+
+/* line 46, ../../app/styles/main.scss */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 15px;
+  color: inherit;
+}
+
+/* line 52, ../../app/styles/main.scss */
+
+h1,
+h2 {
+  margin-top: 20px;
+}
+
+/* line 57, ../../app/styles/main.scss */
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* line 62, ../../app/styles/main.scss */
+
+p {
+  margin: 0 0 10px;
+}
+
+/* line 66, ../../app/styles/main.scss */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 15px;
+  color: inherit;
+}
+
+/* line 72, ../../app/styles/main.scss */
+
+h1,
+h2 {
+  margin-top: 20px;
+}
+
+/* line 76, ../../app/styles/main.scss */
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  width: 100%;
+  margin: 0 auto -80px;
+}
+
+/* line 83, ../../app/styles/main.scss */
+
+.clearBoth {
+  clear: both;
+}
+
+/* line 87, ../../app/styles/main.scss */
+
+.modalOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1004;
+  position: fixed;
+  top: 0;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 98, ../../app/styles/main.scss */
+
+.verticalTopPush {
+  height: 45px;
+}
+
+/* line 102, ../../app/styles/main.scss */
+
+.verticalBottomPush {
+  height: 35px;
+}
+
+/* line 106, ../../app/styles/main.scss */
+
+.leftNavClear {
+  padding-left: 90px;
+}
+
+/* line 110, ../../app/styles/main.scss */
+
+.iconMobileMenu {
+  background-image: url("../images/iconMobileMenu.png");
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -10px;
+  cursor: pointer;
+  display: none;
+}
+
+/* line 120, ../../app/styles/main.scss */
+
+.headerBar {
+  width: 100%;
+  min-height: 46px;
+  background-color: #3d3d3d;
+  color: white;
+  padding-top: 12px;
+  padding-left: 16px;
+  position: fixed;
+  top: 0;
+  z-index: 1002;
+}
+
+/* line 131, ../../app/styles/main.scss */
+
+.headerBar .logoGroupContainer {
+  width: 200px;
+}
+
+/* line 136, ../../app/styles/main.scss */
+
+.headerBar .logoGroupContainer .logoGroup .logoCopy {
+  font-family: 'Gibson_LightIt';
+  font-size: 1.20em;
+  color: #ffffff;
+  float: left;
+}
+
+/* line 143, ../../app/styles/main.scss */
+
+.headerBar .logoGroupContainer .logoGroup .logoMark {
+  background-image: url("../images/logoMark.png");
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+/* line 154, ../../app/styles/main.scss */
+
+.headerBar .topNav {
+  font-family: 'Gibson_SemiBold';
+  display: none;
+  z-index: 1003;
+  margin-right: 10px;
+  float: right;
+}
+
+/* line 161, ../../app/styles/main.scss */
+
+.headerBar .topNav a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  float: left;
+}
+
+/* line 168, ../../app/styles/main.scss */
+
+.headerBar .topNav a:hover {
+  color: #ffb500;
+}
+
+/* line 172, ../../app/styles/main.scss */
+
+.headerBar .topNav .active {
+  color: #ffb500;
+}
+
+/* line 178, ../../app/styles/main.scss */
+
+.messageBar {
+  width: 100%;
+  min-height: 36px;
+  background-color: #51b7a1;
+  color: white;
+  text-align: center;
+  position: fixed;
+  clear: both;
+  display: none;
+  z-index: 101;
+}
+
+/* line 189, ../../app/styles/main.scss */
+
+.messageBar.static {
+  position: static;
+}
+
+/* line 193, ../../app/styles/main.scss */
+
+.messageBar a {
+  color: inherit;
+}
+
+/* line 197, ../../app/styles/main.scss */
+
+.messageBar .iconButtonCloseX {
+  background-image: url("../images/iconButtonCloseX.png");
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  right: 20px;
+  top: 12px;
+  cursor: pointer;
+  display: none;
+}
+
+/* line 208, ../../app/styles/main.scss */
+
+.messageBar .messageBarCopy {
+  font-family: 'Gibson_Regular';
+  font-size: 15px;
+  line-height: 14px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 218, ../../app/styles/main.scss */
+
+.messageBar.success {
+  color: white;
+  background-color: #51b7a1;
+}
+
+/* line 222, ../../app/styles/main.scss */
+
+.messageBar.error {
+  color: white;
+  background-color: #e1523d;
+}
+
+/* line 226, ../../app/styles/main.scss */
+
+.messageBar.warning {
+  color: black;
+  background-color: #fdbd42;
+}
+
+/* line 232, ../../app/styles/main.scss */
+
+.formWrapper {
+  margin-top: 40px;
+}
+
+/* line 236, ../../app/styles/main.scss */
+
+.containerMessageBarClear {
+  margin-top: 60px;
+}
+
+/* line 240, ../../app/styles/main.scss */
+
+.containerEditViewAdjust {
+  margin-top: 20px;
+}
+
+/* line 244, ../../app/styles/main.scss */
+
+.wrapperOneColumnFormCenter {
+  padding-top: 30px;
+  width: 290px;
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -4em;
+  margin-bottom: 30px;
+}
+
+/* line 253, ../../app/styles/main.scss */
+
+.wrapper350WideCenter {
+  width: 350px;
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -4em;
+  margin-bottom: 30px;
+}
+
+/* line 261, ../../app/styles/main.scss */
+
+.wrapper700WideCenter {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 700px;
+}
+
+/* line 267, ../../app/styles/main.scss */
+
+.wrapper700WideCenter a {
+  text-decoration: underline;
+  padding-top: 7px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: block;
+  color: #58534e;
+}
+
+/* line 281, ../../app/styles/main.scss */
+
+.wrapper100PercentWideCenter {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* line 289, ../../app/styles/main.scss */
+
+.formContainerHeader {
+  width: 100%;
+  height: 46px;
+  background-color: #7d6b94;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 10px;
+}
+
+/* line 297, ../../app/styles/main.scss */
+
+.formContainerHeader .iconClose {
+  background-image: url("../images/iconButtonCloseX.png");
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  clear: left;
+  margin-top: -20px;
+  margin-right: 10px;
+}
+
+/* line 308, ../../app/styles/main.scss */
+
+.formContainerHeader h2 {
+  font-family: 'Gibson_SemiBold';
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-left: 10px;
+}
+
+/* line 318, ../../app/styles/main.scss */
+
+.formContainerHeader h4 {
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 16px;
+}
+
+/* line 327, ../../app/styles/main.scss */
+
+.formContainerHeader .headerLabel {
+  font-family: 'Gibson_SemiBold';
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 13px;
+  padding-left: 10px;
+  float: left;
+}
+
+/* line 338, ../../app/styles/main.scss */
+
+.formContainerHeader .linkContainer {
+  font-weight: normal;
+  font-family: Gibson_Regular;
+  margin-top: 11px;
+  margin-left: 20px;
+  float: left;
+}
+
+/* line 345, ../../app/styles/main.scss */
+
+.formContainerHeader .linkContainer .link {
+  cursor: pointer;
+}
+
+/* line 349, ../../app/styles/main.scss */
+
+.formContainerHeader .linkContainer .linkButton {
+  min-width: 60px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  height: 24px;
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 0.90em;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  border: 1px solid #fff;
+}
+
+/* line 367, ../../app/styles/main.scss */
+
+.checkbox {
+  background: url("../images/buttonCheckbox.png") 0 0px;
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 376, ../../app/styles/main.scss */
+
+.checkbox.over {
+  background: url("../images/buttonCheckbox.png") 0 -20px;
+}
+
+/* line 380, ../../app/styles/main.scss */
+
+.checkbox.checked {
+  background: url("../images/buttonCheckbox.png") 0 -40px;
+}
+
+/* line 385, ../../app/styles/main.scss */
+
+.listCheckbox {
+  background: url("../images/listButtonCheckbox.png") 0 0px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 23px;
+  margin-top: 1px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 395, ../../app/styles/main.scss */
+
+.listCheckbox.over {
+  background: url("../images/listButtonCheckbox.png") 0 -23px;
+  background-repeat: no-repeat;
+}
+
+/* line 400, ../../app/styles/main.scss */
+
+.listCheckbox.checked {
+  background: url("../images/listButtonCheckbox.png") 0 -46px;
+  background-repeat: no-repeat;
+}
+
+/* line 406, ../../app/styles/main.scss */
+
+.buttonCheckbox {
+  background: url("../images/buttonCheckbox.png") 0 0px;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  float: left;
+  display: inline;
+}
+
+/* line 416, ../../app/styles/main.scss */
+
+.checkboxDisabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* line 421, ../../app/styles/main.scss */
+
+.checkboxCopyRegular {
+  font-family: 'Gibson_Regular';
+  font-size: 0.95em;
+  color: #58534e;
+  float: left;
+  margin-left: 2px;
+  margin-right: 12px;
+}
+
+/* line 430, ../../app/styles/main.scss */
+
+.formColumnContainer350Wide {
+  background-color: #fff;
+  width: 350px;
+  padding: 24px;
+  border: 1px solid #7d6b94;
+}
+
+/* line 437, ../../app/styles/main.scss */
+
+.formColumnContainer700Wide {
+  background-color: #fff;
+  width: 700px;
+  padding: 34px;
+  border: 1px solid #7d6b94;
+}
+
+/* line 444, ../../app/styles/main.scss */
+
+.formContainerSingleColumn {
+  width: 280px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+/* line 449, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .fauxInputField {
+  margin-top: -8px;
+  margin-left: 4px;
+  height: 22px;
+}
+
+/* line 455, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .actionContainer {
+  margin-bottom: 20px;
+  float: left;
+}
+
+/* line 460, ../../app/styles/main.scss */
+
+.formContainerSingleColumn h2 {
+  font-family: 'Gibson_SemiBold';
+  font-size: 1.80em;
+  letter-spacing: -0.01em;
+  color: #3e3934;
+  margin-bottom: 0px;
+}
+
+/* line 468, ../../app/styles/main.scss */
+
+.formContainerSingleColumn p {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #58534e;
+}
+
+/* line 474, ../../app/styles/main.scss */
+
+.formContainerSingleColumn a {
+  text-decoration: underline;
+  color: #58534e;
+}
+
+/* line 479, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .preInputLabel {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #3e3934;
+}
+
+/* line 485, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .inputLabel {
+  font-family: 'Gibson_Semibold';
+  font-size: 14px;
+  color: #7d6b94;
+}
+
+/* line 491, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .inputLinkLabel {
+  font-family: 'Gibson_Semibold';
+  font-size: 14px;
+  color: #7d6b94;
+  float: left;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+/* line 500, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .inputLinkLabel:hover {
+  text-decoration: underline;
+}
+
+/* line 504, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .inputLinkLabelActive {
+  text-decoration: underline;
+}
+
+/* line 508, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .inputField {
+  min-width: 280px;
+}
+
+/* line 512, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .buttonCheckbox {
+  background: url("../images/buttonCheckbox.png") 0 0px;
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 521, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .checkboxDisabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* line 526, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .checkboxCopySmall {
+  font-family: 'Gibson_Regular';
+  font-size: 0.85em;
+  color: #58534e;
+  float: left;
+  margin-left: 2px;
+}
+
+/* line 534, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .checkboxCopyRegular {
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #58534e;
+  float: left;
+  margin-left: 2px;
+}
+
+/* line 542, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .checkboxListGroup {
+  width: 280px;
+  height: 100px;
+  border: 1px solid #dedede;
+  overflow-y: auto;
+  padding-top: 6px;
+  margin-top: -8px;
+}
+
+/* line 551, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .checkboxListItem {
+  float: left;
+  clear: both;
+  margin-bottom: 4px;
+}
+
+/* line 557, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .cancelLink {
+  text-decoration: underline;
+  padding-top: 7px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* line 571, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .emailDomainTextArea {
+  width: 280px;
+  height: 160px;
+  border: 1px solid #dedede;
+  padding-left: 6px;
+  padding-right: 4px;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #3e3934;
+  resize: none;
+  word-wrap: break-word;
+}
+
+/* line 584, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .viewEditButtonContainer {
+  margin-top: -10px;
+  float: right;
+}
+
+/* line 589, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .formActionLink {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 14px;
+  color: #706085;
+  float: left;
+  cursor: pointer;
+}
+
+/* line 599, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .formActionLink:hover {
+  border-bottom: 2px solid #51b7a1;
+}
+
+/* line 603, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .formActionLinkActive {
+  border-bottom: 2px solid #51b7a1;
+}
+
+/* line 607, ../../app/styles/main.scss */
+
+.formContainerSingleColumn .requiredAsterisk {
+  float: left;
+}
+
+/* line 612, ../../app/styles/main.scss */
+
+.inputField {
+  min-width: 300px;
+  height: 30px;
+  border: 1px solid #dedede;
+  padding-left: 6px;
+  font-family: 'Gibson_Regular';
+  font-size: 14px;
+  color: #3e3934;
+}
+
+/* line 621, ../../app/styles/main.scss */
+
+.inputField.invalid {
+  border-color: #e85043;
+}
+
+/* line 626, ../../app/styles/main.scss */
+
+.widthAdjust700Wide {
+  width: 700px;
+}
+
+/* line 630, ../../app/styles/main.scss */
+
+.spacer10High {
+  width: 10px;
+  height: 10px;
+  clear: both;
+}
+
+/* line 636, ../../app/styles/main.scss */
+
+.spacer30High {
+  width: 30px;
+  height: 30px;
+  clear: both;
+}
+
+/* line 642, ../../app/styles/main.scss */
+
+.spacer10HighNoClear {
+  width: 10px;
+  height: 10px;
+}
+
+/* line 647, ../../app/styles/main.scss */
+
+.formError {
+  font-family: 'Gibson_SemiBold';
+  font-size: 0.85em;
+  color: #e85043;
+  margin-bottom: 6px;
+}
+
+/* line 653, ../../app/styles/main.scss */
+
+.formError a {
+  color: inherit;
+}
+
+/* line 658, ../../app/styles/main.scss */
+
+.formMessage {
+  font-family: 'Gibson_SemiBold';
+  font-size: 0.85em;
+  color: #51b7a1;
+  display: none;
+  margin-bottom: 6px;
+}
+
+/* line 666, ../../app/styles/main.scss */
+
+.landingPageBody {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 670, ../../app/styles/main.scss */
+
+.landingPageBody .dashboardSplashImage {
+  background-image: url("../images/dashboardSplashImage.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  display: block;
+  width: 55%;
+  height: 425px;
+  max-width: 600px;
+  float: left;
+}
+
+/* line 682, ../../app/styles/main.scss */
+
+.landingPageBody .filesSplashImage {
+  background-image: url("../images/filesSplashImage.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  display: block;
+  width: 55%;
+  height: 425px;
+  max-width: 600px;
+  float: left;
+}
+
+/* line 694, ../../app/styles/main.scss */
+
+.landingPageBody .splashCopy {
+  width: 35%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+  float: left;
+}
+
+/* line 701, ../../app/styles/main.scss */
+
+.landingPageBody .splashCopy h1 {
+  font-family: 'Gibson_SemiBold';
+  font-size: 39px;
+  line-height: 39px;
+  margin-bottom: 5px;
+}
+
+/* line 708, ../../app/styles/main.scss */
+
+.landingPageBody .splashCopy h2 {
+  font-family: 'Gibson_Regular';
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 715, ../../app/styles/main.scss */
+
+.landingPageBody .splashCopy ul {
+  font-family: 'Gibson_Regular';
+  font-size: 17px;
+  padding-left: 30px;
+}
+
+/* line 721, ../../app/styles/main.scss */
+
+.landingPageBody .splashCopy .hRule {
+  width: 100%;
+  height: 4px;
+  background-color: #ffb500;
+}
+
+/* line 729, ../../app/styles/main.scss */
+
+.footer {
+  clear: both;
+  background-color: #101820;
+  min-width: 280px;
+  height: 70px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+/* line 737, ../../app/styles/main.scss */
+
+.footer .footerInnerWrapper {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* line 741, ../../app/styles/main.scss */
+
+.footer .footerInnerWrapper .footerHDivider {
+  width: 100%;
+  border-top: 1px solid #ffb500;
+  margin-bottom: 10px;
+}
+
+/* line 747, ../../app/styles/main.scss */
+
+.footer .footerInnerWrapper a {
+  color: #adadad;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  float: left;
+  font-family: 'Gibson_Regular';
+  font-size: 0.85em;
+}
+
+/* line 757, ../../app/styles/main.scss */
+
+.footer .footerInnerWrapper .footerVDivider {
+  border-left: 1px solid #ffffff;
+  height: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  float: left;
+}
+
+/* line 766, ../../app/styles/main.scss */
+
+.footer .footerInnerWrapper .copyright {
+  position: relative;
+  float: left;
+  clear: both;
+  font-family: 'Gibson_Regular';
+  font-size: 0.70em;
+  color: #cccccc;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+/* line 777, ../../app/styles/main.scss */
+
+.footer .footerInnerWrapper .thePowerOfPersonalSlogan {
+  font-family: 'Gibson_Regular';
+  font-size: 18px;
+  font-style: italic;
+  line-height: 15px;
+  color: #ffb500;
+  margin-top: -10px;
+  float: right;
+  display: table-cell;
+}
+
+/* line 9, ../../app/styles/profileMenu.scss */
+
+.profileMenu {
+  float: right;
+  height: 46px;
+  margin-top: -16px;
+  display: block;
+  padding-top: 12px;
+}
+
+/* line 16, ../../app/styles/profileMenu.scss */
+
+.profileMenu .userName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: 'Gibson_Regular';
+  font-size: 13px;
+  line-height: 13px;
+  cursor: pointer;
+  width: 220px;
+  text-align: right;
+}
+
+/* line 26, ../../app/styles/profileMenu.scss */
+
+.profileMenu .dropDown {
+  width: 160px;
+  height: 32px;
+}
+
+/* line 31, ../../app/styles/profileMenu.scss */
+
+.profileMenu .dropDown.ng-hide-add,
+.profileMenu .dropDown.ng-hide-remove {
+  display: block !important;
+  height: 0px;
+}
+
+/* line 36, ../../app/styles/profileMenu.scss */
+
+.profileMenu .dropDown.ng-hide-remove.ng-hide-remove-active {
+  height: 32px;
+}
+
+/* line 40, ../../app/styles/profileMenu.scss */
+
+.profileMenu .dropDown.ng-hide-add {
+  height: 32px;
+}
+
+/* line 44, ../../app/styles/profileMenu.scss */
+
+.profileMenu .dropDown.ng-hide-add.ng-hide-add-active {
+  height: 0px;
+}
+
+/* line 48, ../../app/styles/profileMenu.scss */
+
+.profileMenu .dropDown .dropDownInner {
+  width: 158px;
+  overflow-y: hidden;
+}
+
+/* line 5, ../../app/styles/report.scss */
+
+.reportInnerContainer {
+  padding-left: 90px;
+  margin-right: 27px;
+}
+
+/* line 10, ../../app/styles/report.scss */
+
+.reportView {
+  font-family: 'Gibson_Semibold';
+  color: #58534e;
+}
+
+/* line 15, ../../app/styles/report.scss */
+
+.reportDirectory {
+  font-size: 1.10em;
+  letter-spacing: 0.1em;
+  color: #3e3934;
+  margin: 10px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+}
+
+/* line 23, ../../app/styles/report.scss */
+
+.reportDirectory.ng-enter,
+.reportDirectory.ng-leave {
+  transition: all linear 0.4s;
+}
+
+/* line 28, ../../app/styles/report.scss */
+
+.reportDirectory.ng-enter,
+.reportDirectory.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+/* line 33, ../../app/styles/report.scss */
+
+.reportDirectory.ng-leave,
+.reportDirectory.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+/* line 39, ../../app/styles/report.scss */
+
+.reportCategoryList,
+.reportList {
+  padding-left: 0;
+}
+
+/* line 42, ../../app/styles/report.scss */
+
+.reportCategoryList > li,
+.reportList > li {
+  list-style-type: none;
+}
+
+/* line 47, ../../app/styles/report.scss */
+
+.reportCategory {
+  text-transform: uppercase;
+  font-size: 1.65em;
+  margin: 0 15px;
+  padding: 45px 5px 45px 55px;
+}
+
+/* line 54, ../../app/styles/report.scss */
+
+.reportCategory + .reportCategory {
+  border-top: 1px solid #c5c5c5;
+}
+
+/* line 58, ../../app/styles/report.scss */
+
+.reportListItem {
+  font-family: 'Gibson_Regular';
+  text-transform: none;
+  font-size: medium;
+  margin: 25px 65px 25px 0;
+  width: 195px;
+  display: inline-block;
+}
+
+/* line 67, ../../app/styles/report.scss */
+
+.reportLink {
+  color: inherit;
+  display: block;
+}
+
+/* line 71, ../../app/styles/report.scss */
+
+.reportLink .reportIcon {
+  margin: 10px auto 30px;
+  height: 84px;
+  width: 90px;
+  background: url("../images/report/iconCompanySummary.png") 0 84px;
+}
+
+/* line 77, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.acquisitionPerformance {
+  background-image: url("../images/report/iconAcquisitionPerformance.png");
+}
+
+/* line 81, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.messagingPerformance {
+  background-image: url("../images/report/iconMessagingPerformance.png");
+}
+
+/* line 85, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.crmPerformance {
+  background-image: url("../images/report/iconCrmPerformance.png");
+}
+
+/* line 89, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.fileIntelligence {
+  background-image: url("../images/report/iconFileIntelligence.png");
+}
+
+/* line 93, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.geoPerformance {
+  background-image: url("../images/report/iconGeoPerformance.png");
+}
+
+/* line 97, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.mobileInsights {
+  background-image: url("../images/report/iconMobileInsights.png");
+}
+
+/* line 101, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.personalizationInsights {
+  background-image: url("../images/report/iconPersonalizationInsights.png");
+}
+
+/* line 105, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.promotionPerformance {
+  background-image: url("../images/report/iconPromotionPerformance.png");
+}
+
+/* line 109, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.salesVisitation {
+  background-image: url("../images/report/iconSalesVisitiation.png");
+}
+
+/* line 113, ../../app/styles/report.scss */
+
+.reportLink .reportIcon.videoPerformance {
+  background-image: url("../images/report/iconVideoPerformance.png");
+}
+
+/* line 118, ../../app/styles/report.scss */
+
+.reportLink .reportTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  letter-spacing: 0em;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* line 127, ../../app/styles/report.scss */
+
+.reportLink .reportTitle:after {
+  content: '';
+  background-color: #c5c5c5;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0.15em;
+  left: 0;
+}
+
+/* line 140, ../../app/styles/report.scss */
+
+.reportLink .updateFrequency,
+.reportLink .reportDescription,
+.reportLink .shortReportDescription {
+  color: #58534e;
+}
+
+/* line 144, ../../app/styles/report.scss */
+
+.reportLink .updateFrequency {
+  font-size: 0.6em;
+  font-family: 'Gibson_Semibold';
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+/* line 152, ../../app/styles/report.scss */
+
+.reportLink .reportDescriptionRelative {
+  position: relative;
+}
+
+/* line 157, ../../app/styles/report.scss */
+
+.reportLink .reportDescription,
+.reportLink .shortReportDescription {
+  font-style: italic;
+  font-size: 0.79em;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+}
+
+/* line 164, ../../app/styles/report.scss */
+
+.reportLink .shortReportDescription {
+  height: 2.3em;
+  overflow: hidden;
+}
+
+/* line 169, ../../app/styles/report.scss */
+
+.reportLink .reportDescription {
+  display: none;
+  border: 1px solid #c5c5c5;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.6em;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  margin: 0px -5px -5px;
+}
+
+/* line 180, ../../app/styles/report.scss */
+
+.reportLink .reportDescription:before {
+  content: ' ';
+  width: 11px;
+  height: 6px;
+  background: url("../images/secondaryNav/dropDownSubBoxArrow.png") 0 0px;
+  position: absolute;
+  top: -6px;
+  left: 3px;
+}
+
+/* line 191, ../../app/styles/report.scss */
+
+.reportLink:hover {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+/* line 196, ../../app/styles/report.scss */
+
+.reportLink:hover .reportTitle {
+  color: #51b7a1;
+}
+
+/* line 200, ../../app/styles/report.scss */
+
+.reportLink:hover .reportIcon {
+  background-position: 0 0px;
+}
+
+/* line 205, ../../app/styles/report.scss */
+
+.reportLink:hover .reportDescription,
+.reportLink:hover .dropDownArrow {
+  display: block;
+}
+
+/* line 210, ../../app/styles/report.scss */
+
+.reportViz {
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+  display: none;
+}
+
+/* line 218, ../../app/styles/report.scss */
+
+.reportVizOverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 225, ../../app/styles/report.scss */
+
+.reportError {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Gibson_SemiBold';
+  font-size: 1.00em;
+  color: #58534e;
+}
+
+/* line 7, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar {
+  height: 54px;
+  width: 100%;
+  z-index: 98;
+  background-color: #f4f4f4;
+}
+
+/* line 13, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .buttonFormStd {
+  float: right;
+  margin: 8px 0 0 10px;
+}
+
+/* line 21, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .vDivider,
+.reportToolbar .selectReportDropDownContainer,
+.reportToolbar .customReportMenuLink,
+.reportToolbar .iconRefresh {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  margin-left: 18px;
+}
+
+/* line 28, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .selectReportDropDownContainer {
+  float: left;
+  min-width: 400px;
+  margin-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: -2px;
+}
+
+/* line 36, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .searchDropDownContainer {
+  position: static;
+}
+
+/* line 40, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .customReportMenuLink {
+  margin-top: 12px;
+}
+
+/* line 44, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .vDivider {
+  margin-top: 8px;
+  border-left: 1px solid #ccc;
+}
+
+/* line 49, ../../app/styles/reportToolbar.scss */
+
+.reportToolbar .iconRefresh {
+  /*TODO: replace with new icon style */
+  width: 15px;
+  margin-top: 8px;
+  cursor: pointer;
+  background-image: url("../images/iconRefresh.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 60, ../../app/styles/reportToolbar.scss */
+
+.dropDownAnchor,
+.csvDownloadMenu,
+.customReportMenu {
+  position: relative;
+}
+
+/* line 63, ../../app/styles/reportToolbar.scss */
+
+.dropDownAnchor .dropDown,
+.csvDownloadMenu .dropDown,
+.customReportMenu .dropDown {
+  position: absolute;
+  top: 37px;
+}
+
+/* line 69, ../../app/styles/reportToolbar.scss */
+
+.csvDownloadMenu {
+  float: right;
+  z-index: 1000;
+}
+
+/* line 74, ../../app/styles/reportToolbar.scss */
+
+.csvDownloadMenu .dropDown {
+  right: 0px;
+}
+
+/* line 79, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu {
+  display: inline-block;
+  z-index: 1000;
+}
+
+/* line 85, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .dropDown .inputField {
+  min-width: 180px;
+  margin: 8px 0 8px 8px;
+}
+
+/* line 64, ../../app/styles/_mixins.scss */
+
+.customReportMenu .dropDown .inputField::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+/* line 68, ../../app/styles/_mixins.scss */
+
+.customReportMenu .dropDown .inputField:-moz-placeholder {
+  font-style: italic;
+}
+
+/* line 72, ../../app/styles/_mixins.scss */
+
+.customReportMenu .dropDown .inputField::-moz-placeholder {
+  font-style: italic;
+}
+
+/* line 76, ../../app/styles/_mixins.scss */
+
+.customReportMenu .dropDown .inputField:-ms-input-placeholder {
+  font-style: italic;
+}
+
+/* line 92, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .dropDown .inputField + .buttonFormStd {
+  margin: 8px 8px 8px 0px;
+}
+
+/* line 97, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .dropDown .header {
+  padding-bottom: 0px;
+}
+
+/* line 102, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .dropDown li,
+.customReportMenu .dropDown .offsetLeft {
+  padding: 3px 0px 3px 25px;
+}
+
+/* line 107, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .dropDownInner {
+  overflow-y: hidden;
+  position: relative;
+}
+
+/* line 112, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .menuBody,
+.customReportMenu .menuForm {
+  overflow-y: auto;
+  max-height: 181px;
+  margin-bottom: 50px;
+}
+
+/* line 118, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .menuForm {
+  max-height: 201px;
+  padding-bottom: 10px;
+}
+
+/* line 125, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .customViewEditor .inputField {
+  width: 83%;
+  margin: 3px 0px 3px 10px;
+}
+
+/* line 130, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .customViewEditor .icon-delete:before {
+  color: #e85043;
+  vertical-align: top;
+}
+
+/* line 136, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .customViewEditor.deleted .inputField {
+  color: #e85043;
+  text-decoration: line-through;
+}
+
+/* line 140, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .customViewEditor.deleted .icon-delete:before {
+  color: #ababab;
+}
+
+/* line 146, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .menuFooter,
+.customReportMenu .menuListFooter {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #c5c5c5;
+}
+
+/* line 156, ../../app/styles/reportToolbar.scss */
+
+.customReportMenu .menuListFooter {
+  padding: 15px 25px;
+}
+
+/* line 162, ../../app/styles/reportToolbar.scss */
+
+.formControl {
+  display: block;
+  float: right;
+}
+
+/* line 166, ../../app/styles/reportToolbar.scss */
+
+.formControl .formCancel {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* line 171, ../../app/styles/reportToolbar.scss */
+
+.formControl .formSubmit {
+  float: initial;
+  margin: 8px;
+}
+
+/* line 177, ../../app/styles/reportToolbar.scss */
+
+.reportToolbarLeftContainer {
+  float: left;
+  width: 325px;
+}
+
+/* line 182, ../../app/styles/reportToolbar.scss */
+
+.reportDownloadContainer {
+  float: right;
+  width: 250px;
+}
+
+/* line 187, ../../app/styles/reportToolbar.scss */
+
+.reportSearchDropDown {
+  position: absolute;
+  z-index: 1001;
+}
+
+/* line 8, ../../app/styles/files.scss */
+
+.filesView {
+  width: 98%;
+  /*TODO: Grid resets: revisit when grid styles change*/
+}
+
+/* line 14, ../../app/styles/files.scss */
+
+.filesView .filesViewHeader {
+  height: 54px;
+  margin: 10px 10px 0px;
+  padding: 5px 10px;
+}
+
+/* line 19, ../../app/styles/files.scss */
+
+.filesView .filesViewHeader .filesSelectedText {
+  color: #51b7a1;
+  float: right;
+  margin: 8px;
+}
+
+/* line 25, ../../app/styles/files.scss */
+
+.filesView .filesViewHeader .iconButton {
+  float: right;
+}
+
+/* line 29, ../../app/styles/files.scss */
+
+.filesView .filesViewHeader .vDivider {
+  border-left: 1px solid #ccc;
+  float: right;
+  height: 30px;
+  margin-left: 6px;
+  margin-right: 16px;
+}
+
+/* line 38, ../../app/styles/files.scss */
+
+.filesView .filesViewBody {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+}
+
+/* line 47, ../../app/styles/files.scss */
+
+.filesView .fileContextNav,
+.filesView .fileContextNavTop {
+  width: 15%;
+  height: 100%;
+  vertical-align: top;
+  list-style: none;
+  display: table-cell;
+  padding: 10px 30px;
+  margin: 0px;
+  font-size: 25px;
+}
+
+/* line 57, ../../app/styles/files.scss */
+
+.filesView .fileContextNav li,
+.filesView .fileContextNavTop li {
+  white-space: nowrap;
+  padding: 7px 0px;
+}
+
+/* line 62, ../../app/styles/files.scss */
+
+.filesView .fileContextNav .fileContextNavItem,
+.filesView .fileContextNavTop .fileContextNavItem {
+  color: #58534e;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 69, ../../app/styles/files.scss */
+
+.filesView .fileContextNav .fileContextNavItem.active:after,
+.filesView .fileContextNav .fileContextNavItem:hover:after,
+.filesView .fileContextNavTop .fileContextNavItem.active:after,
+.filesView .fileContextNavTop .fileContextNavItem:hover:after {
+  content: '';
+  background-color: #51b7a1;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: -0.15em;
+  left: 0;
+}
+
+/* line 81, ../../app/styles/files.scss */
+
+.filesView .fileContextNav {
+  width: 230px;
+}
+
+/* line 85, ../../app/styles/files.scss */
+
+.filesView .fileContextNavTop {
+  display: none;
+}
+
+/* line 89, ../../app/styles/files.scss */
+
+.filesView .fileListContainer {
+  width: 85%;
+  display: table-cell;
+  border-left: 1px solid #c5c5c5;
+}
+
+/* line 95, ../../app/styles/files.scss */
+
+.filesView .fileUpload {
+  overflow-y: hidden;
+  margin: 18px 10px;
+}
+
+/* line 42, ../../app/styles/_mixins.scss */
+
+.filesView .fileUpload.ng-hide {
+  max-height: 0px;
+}
+
+/* line 47, ../../app/styles/_mixins.scss */
+
+.filesView .fileUpload.ng-hide-add,
+.filesView .fileUpload.ng-hide-remove {
+  transition: max-height 150ms;
+}
+
+/* line 52, ../../app/styles/_mixins.scss */
+
+.filesView .fileUpload.ng-hide-add,
+.filesView .fileUpload.ng-hide-remove.ng-hide-remove-active {
+  max-height: 140px;
+}
+
+/* line 56, ../../app/styles/_mixins.scss */
+
+.filesView .fileUpload.ng-hide-add.ng-hide-add-active {
+  max-height: 0px;
+}
+
+/* line 100, ../../app/styles/files.scss */
+
+.filesView .fileUpload .dropTarget {
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px dashed #c5c5c5;
+  padding: 18px;
+  margin: 0px 8px 10px;
+}
+
+/* line 107, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadDialogLink {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 112, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadList {
+  list-style: none;
+  margin: 0px auto;
+  padding: 0px;
+  width: 85%;
+  white-space: nowrap;
+}
+
+/* line 125, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadFileCancel,
+.filesView .fileUpload .uploadListItemBorder,
+.filesView .fileUpload .uploadFileName,
+.filesView .fileUpload .uploadFileSize,
+.filesView .fileUpload .uploadFileProgress,
+.filesView .fileUpload .uploadFileError {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 131, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadFileCancel,
+.filesView .fileUpload .uploadFileError {
+  color: #e85043;
+}
+
+/* line 135, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadListItemBorder {
+  width: 85%;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+/* line 140, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadFileName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 60%;
+}
+
+/* line 145, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadFileSize {
+  width: 20%;
+}
+
+/* line 150, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadFileError,
+.filesView .fileUpload .uploadFileProgress {
+  text-align: center;
+  width: 20%;
+}
+
+/* line 155, ../../app/styles/files.scss */
+
+.filesView .fileUpload .uploadFileProgress {
+  height: 34px;
+}
+
+/* line 159, ../../app/styles/files.scss */
+
+.filesView .fileUpload .progressContainer {
+  width: 70%;
+  vertical-align: bottom;
+}
+
+/* line 164, ../../app/styles/files.scss */
+
+.filesView .fileUpload .icon-approve {
+  color: #5dbb43;
+}
+
+/* line 166, ../../app/styles/files.scss */
+
+.filesView .fileUpload .icon-approve:hover {
+  cursor: default;
+}
+
+/* line 172, ../../app/styles/files.scss */
+
+.filesView .fileList {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* line 177, ../../app/styles/files.scss */
+
+.filesView .fileListSpinner {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  margin: 0px auto;
+}
+
+/* line 184, ../../app/styles/files.scss */
+
+.filesView .directoryNav {
+  margin: 15px 20px 0px;
+}
+
+/* line 189, ../../app/styles/files.scss */
+
+.filesView .directoryNav .directoryLink {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* line 193, ../../app/styles/files.scss */
+
+.filesView .directoryNav .directoryLink.disabled {
+  text-decoration: none;
+  cursor: text;
+}
+
+/* line 200, ../../app/styles/files.scss */
+
+.filesView .sorted {
+  width: 12px;
+  height: 9px;
+  display: inline-block;
+  background: url("../images/secondaryNav/blackChevron.png") 0 0px no-repeat;
+}
+
+/* line 206, ../../app/styles/files.scss */
+
+.filesView .sorted.reverse {
+  background-position: 0 -9px;
+}
+
+/* line 212, ../../app/styles/files.scss */
+
+.filesView .fauxGridHeader {
+  background-color: #f8f6f7;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+
+/* line 218, ../../app/styles/files.scss */
+
+.filesView .fauxGridHeader h2,
+.filesView .fauxGridHeader h4 {
+  font-family: Gibson_Regular;
+  font-size: 16px;
+  color: inherit;
+}
+
+/* line 225, ../../app/styles/files.scss */
+
+.filesView .fauxGridError {
+  margin: 15px;
+}
+
+/* line 230, ../../app/styles/files.scss */
+
+.filesView .fauxGridSub,
+.filesView .fauxGridCell {
+  border: none;
+}
+
+/* line 234, ../../app/styles/files.scss */
+
+.filesView .fauxGridSub {
+  height: auto;
+}
+
+/* line 238, ../../app/styles/files.scss */
+
+.filesView .fauxGridSubInner {
+  height: auto;
+  overflow-y: visible;
+}
+
+/* line 243, ../../app/styles/files.scss */
+
+.filesView .fauxGridSubInner li:hover,
+.filesView .fauxGridSubInner li.selected {
+  background-color: #dad8e6;
+}
+
+/* line 248, ../../app/styles/files.scss */
+
+.filesView .fauxGridCell {
+  padding-top: 8px;
+}
+
+/* line 252, ../../app/styles/files.scss */
+
+.filesView .fauxGridColumnLabel {
+  padding-left: 6px;
+}
+
+/* line 256, ../../app/styles/files.scss */
+
+.filesView .fileName {
+  padding-top: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+/* line 261, ../../app/styles/files.scss */
+
+.filesView .fileName .inlineEditor {
+  margin-top: 3px;
+  min-width: initial;
+  width: 85%;
+}
+
+/* line 269, ../../app/styles/files.scss */
+
+.matchbackFiles {
+  margin: 0px auto;
+  padding: 40px 25px;
+  max-width: 85%;
+}
+
+/* line 274, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackFileList {
+  margin: 0px auto;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px 15px;
+  min-width: 50%;
+  max-width: 100%;
+}
+
+/* line 284, ../../app/styles/files.scss */
+
+.matchbackFiles .currentMatchbackContainer,
+.matchbackFiles .matchbackArchiveList {
+  width: 100%;
+}
+
+/* line 288, ../../app/styles/files.scss */
+
+.matchbackFiles .currentMatchbackContainer {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* line 293, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackType {
+  font-size: 20px;
+}
+
+/* line 298, ../../app/styles/files.scss */
+
+.matchbackFiles .currentMatchbackDate {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* line 303, ../../app/styles/files.scss */
+
+.matchbackFiles .currentMatchbackName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+/* line 309, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchiveLink:before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: '';
+  display: inline-block;
+  border-right: 2px solid #58534e;
+  border-bottom: 2px solid #58534e;
+  width: 8px;
+  height: 8px;
+  margin-right: .6em;
+  transition: -webkit-transform 150ms;
+  transition: transform 150ms;
+}
+
+/* line 320, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchiveLink.active:before {
+  -webkit-transform: rotate(45deg) translateX(2px) translateY(-4px);
+  transform: rotate(45deg) translateX(2px) translateY(-4px);
+}
+
+/* line 325, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchive {
+  overflow-y: hidden;
+}
+
+/* line 42, ../../app/styles/_mixins.scss */
+
+.matchbackFiles .matchbackArchive.ng-hide {
+  max-height: 0px;
+}
+
+/* line 47, ../../app/styles/_mixins.scss */
+
+.matchbackFiles .matchbackArchive.ng-hide-add,
+.matchbackFiles .matchbackArchive.ng-hide-remove {
+  transition: max-height 150ms;
+}
+
+/* line 52, ../../app/styles/_mixins.scss */
+
+.matchbackFiles .matchbackArchive.ng-hide-add,
+.matchbackFiles .matchbackArchive.ng-hide-remove.ng-hide-remove-active {
+  max-height: 140px;
+}
+
+/* line 56, ../../app/styles/_mixins.scss */
+
+.matchbackFiles .matchbackArchive.ng-hide-add.ng-hide-add-active {
+  max-height: 0px;
+}
+
+/* line 330, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchiveList {
+  list-style: none;
+  padding: 0px;
+}
+
+/* line 334, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchiveList .archiveFile {
+  white-space: nowrap;
+  padding: 5px 0px;
+}
+
+/* line 340, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchiveList .archiveFileSize,
+.matchbackFiles .matchbackArchiveList .archiveFileName {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 346, ../../app/styles/files.scss */
+
+.matchbackFiles .matchbackArchiveList .archiveFileSize {
+  margin-left: 10px;
+}
+
+/* 2 column forms */
+
+@media only screen and (max-width: 660px) {
+  /* line 4, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer .singleColumn {
+    width: 100%;
+  }
+}
+
+/* iPhone Portrait - 320px width */
+
+/* Android Phones - 360px width */
+
+/* iPhone6 Portrait - 375px width */
+
+/* LG Nexus 4 - 384px width */
+
+/* iPad Portrait - 768px x 1024px */
+
+/* Faux grid card mode */
+
+/* Files section */
+
+/* This media query covers all the devices and cases listed above. */
+
+@media only screen and (max-width: 767px), (max-device-width: 767px) {
+  /* line 25, ../../app/styles/_breakpointStyles.scss */
+
+  #leftNavInsights,
+  #insightsRow,
+  #insightsSelected,
+  #extranetAnchor,
+  #leftNavCreativeApprovals,
+  #creativeApprovalsRow,
+  #creativeApprovalsSelected {
+    display: none;
+  }
+
+  /* line 31, ../../app/styles/_breakpointStyles.scss */
+
+  .buttonFormStd,
+  .buttonFormStdEnabled,
+  .buttonFormStdDisabled {
+    float: none;
+    display: inline-block;
+  }
+
+  /* line 38, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer .singleColumn .cancelLink {
+    float: none;
+    display: inline-block;
+  }
+
+  /* line 45, ../../app/styles/_breakpointStyles.scss */
+
+  .formWrapper {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  /* line 50, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer {
+    width: 97%;
+    padding: 14px;
+  }
+
+  /* line 56, ../../app/styles/_breakpointStyles.scss */
+
+  .formColumnContainer .singleColumn .detailSection .valueContainer {
+    padding: 0px;
+  }
+
+  /* line 63, ../../app/styles/_breakpointStyles.scss */
+
+  .formHeader {
+    width: 97%;
+  }
+
+  /* line 67, ../../app/styles/_breakpointStyles.scss */
+
+  .formContainerSingleColumn {
+    margin-right: 0px;
+  }
+
+  /* line 73, ../../app/styles/_breakpointStyles.scss */
+
+  .footer .footerInnerWrapper .thePowerOfPersonalSlogan {
+    text-align: right;
+    font-size: 15px;
+    width: 100px;
+    margin-top: -18px;
+    margin-right: 4px;
+  }
+
+  /* line 84, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridInputBox {
+    width: 300px;
+    margin-right: 12px;
+  }
+
+  /* line 89, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridHeader {
+    display: none;
+  }
+
+  /* line 93, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridHeaderSmall {
+    margin-bottom: -4px;
+    display: block;
+  }
+
+  /* line 98, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridRowContainer {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #e4e4e4;
+  }
+
+  /* line 105, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .fauxGridCell {
+    display: none;
+  }
+
+  /* line 109, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGrid .vDivider {
+    display: none;
+  }
+
+  /* line 114, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper {
+    display: block;
+    margin-top: 4px;
+  }
+
+  /* line 119, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper .rowContainer li {
+    height: 100%;
+  }
+
+  /* line 123, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper .rowContainer li:hover {
+    background-color: transparent;
+  }
+
+  /* line 128, ../../app/styles/_breakpointStyles.scss */
+
+  .fauxGridContentWrapper .detailSection {
+    display: block;
+  }
+
+  /* line 133, ../../app/styles/_breakpointStyles.scss */
+
+  .checkboxCopyRegular {
+    margin-right: 12px;
+  }
+
+  /* line 137, ../../app/styles/_breakpointStyles.scss */
+
+  .reportToolbar {
+    padding: 7px 53px 0px 10px;
+  }
+
+  /* line 142, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .filesViewHeader {
+    display: none;
+  }
+
+  /* line 146, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .fileListContainer {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+
+  /* line 151, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .fileContextNav {
+    display: none;
+  }
+
+  /* line 155, ../../app/styles/_breakpointStyles.scss */
+
+  .filesView .fileContextNavTop {
+    width: 100%;
+    display: block;
+  }
+
+  /* line 161, ../../app/styles/_breakpointStyles.scss */
+
+  #fileDetailsGrid {
+    display: none;
+  }
+
+  /* line 166, ../../app/styles/_breakpointStyles.scss */
+
+  .fileUploadView,
+  .fileUpload {
+    display: none;
+  }
+}
+
+/* Small Tablet Landscape - 800px x 600px */
+
+@media only screen and (max-width: 800px) {
+  /* line 175, ../../app/styles/_breakpointStyles.scss */
+
+  .landingPageBody .dashboardSplashImage {
+    width: 90%;
+  }
+
+  /* line 179, ../../app/styles/_breakpointStyles.scss */
+
+  .landingPageBody .splashCopy {
+    width: 90%;
+  }
+}
+
+/* Top Nav/Profile Menu */
+
+/* Files sub menu */
+
+@media only screen and (max-width: 875px) {
+  /* line 188, ../../app/styles/_breakpointStyles.scss */
+
+  html {
+    overflow: visible;
+  }
+
+  /* line 192, ../../app/styles/_breakpointStyles.scss */
+
+  .iconMobileMenu {
+    display: block;
+  }
+
+  /* line 196, ../../app/styles/_breakpointStyles.scss */
+
+  .headerBar {
+    height: 46px;
+  }
+
+  /* line 199, ../../app/styles/_breakpointStyles.scss */
+
+  .headerBar .logoGroupContainer {
+    width: 37px;
+    margin: 0 auto;
+  }
+
+  /* line 204, ../../app/styles/_breakpointStyles.scss */
+
+  .headerBar .logoGroupContainer .logoGroup .logoCopy {
+    display: none;
+  }
+
+  /* line 211, ../../app/styles/_breakpointStyles.scss */
+
+  .verticalBottomPush {
+    height: 46px;
+  }
+
+  /* line 216, ../../app/styles/_breakpointStyles.scss */
+
+  .landingPageBody .splashCopy {
+    margin-top: 10px;
+  }
+
+  /* line 221, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchDropDown .searchDropDownContainer {
+    width: 310px;
+    float: left;
+    margin-top: -14px;
+    margin-left: -105px;
+    background-color: #3d3d3d;
+    height: auto;
+  }
+
+  /* line 230, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchDropDown .searchDropDown {
+    width: 300px;
+  }
+
+  /* line 233, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchDropDown .searchDropDown .searchDropDownInput {
+    width: 300px;
+  }
+
+  /* line 238, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSelectionBarContainer {
+    top: 0px;
+    position: relative;
+  }
+
+  /* line 243, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavInnerWrapper {
+    top: 92px;
+  }
+
+  /* line 248, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNav .leftNavOpenCloseButton {
+    display: none;
+  }
+
+  /* line 253, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSub {
+    margin-top: 0px;
+  }
+
+  /* line 257, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavClear {
+    padding-left: 10px;
+  }
+
+  /* line 261, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNav {
+    display: none;
+  }
+
+  /* line 266, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSub .leftNavRow {
+    padding: 15px 30px;
+  }
+
+  /* line 271, ../../app/styles/_breakpointStyles.scss */
+
+  .leftNavSelectionBarContainer {
+    margin-left: -72px;
+  }
+
+  /* line 275, ../../app/styles/_breakpointStyles.scss */
+
+  .mobileIcon {
+    display: block;
+  }
+
+  /* line 279, ../../app/styles/_breakpointStyles.scss */
+
+  .companySearchRow {
+    display: block;
+  }
+
+  /* line 283, ../../app/styles/_breakpointStyles.scss */
+
+  #companyDropDown {
+    display: none;
+  }
+
+  /* line 287, ../../app/styles/_breakpointStyles.scss */
+
+  .profileMenu {
+    right: 10px;
+    top: 12px;
+    position: fixed;
+  }
+
+  /* line 293, ../../app/styles/_breakpointStyles.scss */
+
+  #filesSelected {
+    height: 61px;
+    margin-bottom: 161px;
+  }
+
+  /* line 298, ../../app/styles/_breakpointStyles.scss */
+
+  #leftNavFiles {
+    height: 61px;
+  }
+
+  /* line 302, ../../app/styles/_breakpointStyles.scss */
+
+  #filesRow {
+    height: 223px;
+  }
+
+  /* line 306, ../../app/styles/_breakpointStyles.scss */
+
+  #filesRowSubMenu {
+    width: 320px;
+    margin-top: 18px;
+    margin-bottom: -16px;
+    margin-left: -30px;
+    font-size: 18px;
+    font-family: 'Gibson_Light';
+    display: block;
+  }
+}
+
+/* Reports (Insights) section */
+
+@media only screen and (max-width: 1178px) {
+  /* line 319, ../../app/styles/_breakpointStyles.scss */
+
+  .reportDownloadContainer {
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  /* line 325, ../../app/styles/_breakpointStyles.scss */
+
+  .csvDownloadMenu .dropDown {
+    right: -168px;
+  }
+
+  /* line 328, ../../app/styles/_breakpointStyles.scss */
+
+  .csvDownloadMenu .dropDown .dropDownArrow {
+    float: left;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Client Access Portal</title>
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<meta name="HandheldFriendly" content="true" />
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/all.css">
+    <!-- endbuild -->
+
+	  <script src="config/commonProperties.js"></script>
+	  <script src="dictionaries/dictionary_EN.js"></script>
+
+	  <script src="common/blacklist.js"></script>
+      <script src="common/environmentVariables.js"></script>
+      <script src="common/messages.js"></script>
+	  <script src="common/utils.js"></script>
+      <script>
+          window.onload = function(){
+              document.getElementById('tableauSource').src= COMMON.tableau.sourceHost +
+                      '/javascripts/api/tableau_v8.js';
+          }
+      </script>
+  </head>
+
+  <body ng-app="cap" ng-controller="MainCtrl" resize-debouncer flow-prevent-drop>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	<modal-overlay></modal-overlay>
+
+    <div id="headerBar" class="headerBar" ng-controller="ResponsiveCtrl">
+		<div id="mobileMenu" style="display: none;">
+			<div class="iconMobileMenu"></div>
+		</div>
+		<logo-group></logo-group>
+        <search-drop-down id="companyDropDown" ng-controller="CompanySearchDropDownCtrl"></search-drop-down>
+		<div id="topNav" class="topNav" ng-controller="LogoutCtrl">
+			<top-nav></top-nav>
+		</div>
+    </div>
+
+	<left-nav></left-nav>
+
+	<div class="wrapper">
+		<div class="verticalTopPush"></div>
+        <message-bar></message-bar>
+
+		<noscript>
+			<meta http-equiv="refresh" content="url=/?nojs=true">
+			<div style="text-align: center; margin-top: 50px;">
+				Please be sure to have your browser enabled to run Javascript to use the Client Access Portal.
+			</div>
+		</noscript>
+
+		<!-- Add your site or application content here -->
+		<div ng-view=""></div>
+
+		<div class="verticalBottomPush"></div>
+	</div>
+
+	<footer></footer>
+
+    <download-link></download-link>
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/spin.js/spin.js"></script>
+    <script src="bower_components/flow.js/dist/flow.js"></script>
+    <script src="bower_components/ng-flow/dist/ng-flow.js"></script>
+	<script src="bower_components/underscore/underscore-min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <!-- endbuild -->
+
+    <script type="text/javascript" src="bundle/bundle.js" charset="utf-8"></script>
+    <script id="tableauSource" type="text/javascript"></script>
+</body>
+</html>
